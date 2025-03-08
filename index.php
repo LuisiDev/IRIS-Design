@@ -116,18 +116,10 @@
             </li>
           </ul>
 
-          <!-- Dark mode toggle -->
-          <button class="c2aj1 ce0zw" aria-label="Toggle dark mode">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-              <path fill="currentColor"
-                d="m15.844 3.344l-1.428.781l1.428.781l.781 1.428l.781-1.428l1.428-.781l-1.428-.781l-.781-1.428zm-5.432.814A8 8 0 1 0 18.93 16A9 9 0 0 1 10 7c0-.98.131-1.937.412-2.842M2 12C2 6.477 6.477 2 12 2h1.734l-.868 1.5C12.287 4.5 12 5.69 12 7a7 7 0 0 0 8.348 6.87l1.682-.327l-.543 1.626C20.162 19.137 16.417 22 12 22C6.477 22 2 17.523 2 12m18.5-5.584l.914 1.67l1.67.914l-1.67.914l-.914 1.67l-.914-1.67L17.916 9l1.67-.914z" />
-            </svg>
-          </button>
-
           <!-- Mobile menu -->
           <div class="cyv1b c4a2s" x-data="{ expanded: false }">
             <!-- Hamburger button -->
-            <button class="cxbhj c3ns1 cdrow cdrak cczaz cwcpl cgwj6 codvp cbkjh cj90k" aria-controls="mobile-nav"
+            <button class="cxbhj c3ns1 cdrow cdrak cczaz cwcpl codvp cbkjh cj90k" aria-controls="mobile-nav"
               :aria-expanded="expanded" @click.stop="expanded = !expanded">
               <span class="c55m0">Menu</span>
               <svg class="cc8v2 cturl ct7tn cdkxo" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
@@ -147,22 +139,22 @@
               x-transition:leave-start="c8bnb" x-transition:leave-end="cio1t" x-cloak="">
               <ul class="cnrm4 ckuz5">
                 <li>
-                  <a class="chpyv ce0zw cl954 cwmyr c4a2s cb51q" href="pricing.html">Pricing</a>
+                  <a class="chpyv ce0zw cl954 cwmyr c4a2s cb51q" href="pricing.html">Inicio</a>
                 </li>
                 <li>
-                  <a class="chpyv ce0zw cl954 cwmyr c4a2s cb51q" href="customers.html">Customers</a>
+                  <a class="chpyv ce0zw cl954 cwmyr c4a2s cb51q" href="customers.html">Servicios</a>
                 </li>
                 <li>
-                  <a class="chpyv ce0zw cl954 cwmyr c4a2s cb51q" href="blog.html">Blog</a>
+                  <a class="chpyv ce0zw cl954 cwmyr c4a2s cb51q" href="blog.html">Plataformas</a>
                 </li>
                 <li>
-                  <a class="chpyv ce0zw cl954 cwmyr c4a2s cb51q" href="documentation.html">Docs</a>
+                  <a class="chpyv ce0zw cl954 cwmyr c4a2s cb51q" href="documentation.html">Precios</a>
                 </li>
                 <li>
-                  <a class="chpyv ce0zw cl954 cwmyr c4a2s cb51q" href="support.html">Support center</a>
+                  <a class="chpyv ce0zw cl954 cwmyr c4a2s cb51q" href="support.html">Promociones</a>
                 </li>
                 <li>
-                  <a class="chpyv ce0zw cl954 cwmyr c4a2s cb51q" href="apps.html">Apps</a>
+                  <a class="chpyv ce0zw cl954 cwmyr c4a2s cb51q" href="apps.html">Ayuda</a>
                 </li>
               </ul>
             </nav>
@@ -241,9 +233,10 @@
 
         <div class="cqcwp">
           <!-- Hero content -->
-          <div class="c71n8 cbgts">
+          <div class="c71n8">
             <!-- Section header -->
-            <div class="cczaz ce84p">
+            <!-- Inicio -->
+            <div class="cczaz ce84p cbgts" id="inicio-form">
               <div class="" data-aos="zoom-y-out">
                 <div class="cxbhj czxkc c4quo c4a2s">
                   <div class="c0vjw c4a2s">
@@ -280,7 +273,7 @@
                 </div>
               </div>
               <h1
-                class="cqzis chf5m c9f55 cep6s chf5m c9s5u cruyu py-1 bg-gradient-to-b from-blue-300 to-gray-50 bg-clip-text text-transparent"
+                class="chf5m c9f55 cep6s chf5m c9s5u cruyu py-1 bg-gradient-to-b from-blue-300 to-gray-50 bg-clip-text text-transparent"
                 data-aos="zoom-y-out" data-aos-delay="150">
                 La unión de todo
               </h1>
@@ -288,10 +281,10 @@
                 <p class="cprne c60f3 text-gray-200" data-aos="zoom-y-out" data-aos-delay="300">
                   Ejecuta procesos, resuelve dudas y gestiona actividades de manera eficiente.
                 </p>
-                <div class="c2xfw cnbst c0vjw">
+                <div class="c2xfw cnbst c0vjw cczaz">
                   <div class="c0ix1 citj5 c0vjw c6dyc cdj6q cqcwp" data-aos="zoom-y-out" data-aos-delay="450">
                     <a class="cdnfp cnbzd cnky1 cfdqu cw1xo c8tf8 cnbyk c8slg cg07b c07cc cwq93 codvp cnv5k cayql"
-                      href="#0">
+                      onclick="showLoginForm()" href="#0">
                       <span class="cdrow cdrak c0vjw">
                         Iniciar sesión
                         <span class="cvsu8 ceifv ck2l5 ck05u cr1y2">-&gt;</span>
@@ -301,7 +294,129 @@
                 </div>
               </div>
             </div>
-
+            <!-- Login -->
+            <div class="cmgtl cczaz" style="display: none" id="login-form">
+              <div class="c0vjw c4a2s">
+                <img class="c13of cqcwp" src="./images/IRIS-logo-stripes.svg" width="100" height="100" alt="Cruip" />
+              </div>
+              <h1
+                class="cczaz chf5m c9f55 cep6s chf5m c9sop cruyu py-1 bg-gradient-to-b from-blue-300 to-gray-50 bg-clip-text text-transparent"
+                data-aos="zoom-y-out" data-aos-delay="150">
+                Iniciar sesión
+              </h1>
+              <div class="c57qp cqcwp c0vjw">
+                <!-- Form -->
+                <form>
+                  <div class="cw6xm">
+                    <div>
+                      <label class="cc7ls cnrm4 cskbc c0dxj cgb6c text-gray-200" for="email">Correo</label>
+                      <input id="email" class="c8okn c07cc c37mk" type="email" placeholder="correo@email.com"
+                        pattern="[^@\s]+@[^@\s]+\.[^@\s]+" required="">
+                    </div>
+                    <div>
+                      <label class="cc7ls cnrm4 cskbc c0dxj cgb6c text-gray-200" for="password">Contraseña</label>
+                      <input id="password" class="c8okn c07cc c37mk" type="password" autocomplete="on"
+                        placeholder="••••••••" required="">
+                    </div>
+                  </div>
+                  <div class="cichh">
+                    <button type="submit"
+                      class="cdnfp cnbzd cnky1 cfdqu cw1xo c8tf8 cnbyk c07cc cwq93 cayql">Ingresar</button>
+                  </div>
+                  <div class="ckmmd cnsl6 c18qm chuib czlz1 c68k1 cdrow cqmuf cdrak cjnt3 c0dcb cuq1a cnzyi c1fmi">
+                    <span class="c7pbn cmwql csuc4 ctbdc cgrvg cdrak">Ó</span>
+                  </div>
+                  <div data-aos="fade-up" data-aos-delay="600">
+                    <a class="cz81t cdouf cnpw6 cdnfp carbw cynyd cnbzd cv5x1 cm27f c2xfw ckbx6 cnbst cpous cckl9 cw1xo c1gto c0vjw c07cc cayql"
+                      onclick="showRegistroForm()" href="#0">Registrarse</a>
+                  </div>
+                  <div class="c2xfw cnbst c0vjw cczaz ckiqo">
+                    <div class="c0ix1 citj5 c0vjw c6dyc cdj6q cqcwp" data-aos="zoom-y-out" data-aos-delay="450">
+                      <a class="cdnfp cw1xo c8tf8 cmwql c8slg cg07b c07cc codvp cnv5k" onclick="showRestablecerForm()"
+                        href="#0">
+                        <span class="cdrow cdrak c0vjw cmnlh cva4k c7sfa">
+                          Restablecer contraseña
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- Registro -->
+            <div class="cmgtl cczaz" style="display: none" id="registro-form">
+              <div class="c0vjw c4a2s">
+                <img class="c13of cqcwp" src="./images/IRIS-logo-stripes.svg" width="100" height="100" alt="Cruip" />
+              </div>
+              <h1
+                class="cczaz chf5m c9f55 cep6s chf5m c9sop cruyu py-1 bg-gradient-to-b from-blue-300 to-gray-50 bg-clip-text text-transparent"
+                data-aos="zoom-y-out" data-aos-delay="150">
+                Registro de usuario
+              </h1>
+              <div class="c57qp cqcwp c0vjw">
+                <!-- Form -->
+                <form>
+                  <div class="cw6xm">
+                    <div>
+                      <label class="cc7ls cnrm4 cskbc c0dxj cgb6c text-gray-200" for="numCliente">Número de
+                        cliente</label>
+                      <input id="numCliente" class="c8okn c07cc c37mk" type="text" placeholder="000" pattern="[0-9]{3}"
+                        required="">
+                    </div>
+                    <div>
+                      <label class="cc7ls cnrm4 cskbc c0dxj cgb6c text-gray-200" for="rfc">RFC</label>
+                      <input id="rfc" class="c8okn c07cc c37mk" type="rfc" pattern="[A-Z]{4}[0-9]{6}[A-Z0-9]{3}"
+                        placeholder="Ingrese su RFC..." required="">
+                    </div>
+                  </div>
+                  <div class="cichh">
+                    <button type="submit"
+                      class="cdnfp cnbzd cnky1 cfdqu cw1xo c8tf8 cnbyk c07cc cwq93 cayql">Registrarme</button>
+                  </div>
+                  <div class="ckmmd cnsl6 c18qm chuib czlz1 c68k1 cdrow cqmuf cdrak cjnt3 c0dcb cuq1a cnzyi c1fmi">
+                    <span class="c7pbn cmwql csuc4 ctbdc cgrvg cdrak">Ó</span>
+                  </div>
+                  <div data-aos="fade-up" data-aos-delay="600">
+                    <a class="cz81t cdouf cnpw6 cdnfp carbw cynyd cnbzd cv5x1 cm27f c2xfw ckbx6 cnbst cpous cckl9 cw1xo c1gto c0vjw c07cc cayql"
+                      onclick="showLoginForm()" href="#0">Iniciar sesión</a>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <!-- Restablecer contraseña -->
+            <div class="cmgtl cczaz" style="display: none" id="restablecer-form">
+              <div class="c0vjw c4a2s">
+                <img class="c13of cqcwp" src="./images/IRIS-logo-stripes.svg" width="100" height="100" alt="Cruip" />
+              </div>
+              <h1
+                class="cczaz chf5m c9f55 cep6s chf5m c9sop cruyu py-1 bg-gradient-to-b from-blue-300 to-gray-50 bg-clip-text text-transparent"
+                data-aos="zoom-y-out" data-aos-delay="150">
+                Restablecer contraseña
+              </h1>
+              <div class="c57qp cqcwp c0vjw">
+                <!-- Form -->
+                <form>
+                  <div class="cw6xm">
+                    <div>
+                      <label class="cc7ls cnrm4 cskbc c0dxj cgb6c text-gray-200" for="email">Correo</label>
+                      <input id="email" class="c8okn c07cc c37mk" type="email" placeholder="correo@email.com"
+                        pattern="[^@\s]+@[^@\s]+\.[^@\s]+" required="">
+                    </div>
+                  </div>
+                  <div class="cichh">
+                    <button type="submit" class="cdnfp cnbzd cnky1 cfdqu cw1xo c8tf8 cnbyk c07cc cwq93 cayql">Enviar
+                      código de recuperación</button>
+                  </div>
+                  <div class="ckmmd cnsl6 c18qm chuib czlz1 c68k1 cdrow cqmuf cdrak cjnt3 c0dcb cuq1a cnzyi c1fmi">
+                    <span class="c7pbn cmwql csuc4 ctbdc cgrvg cdrak">Ó</span>
+                  </div>
+                  <div data-aos="fade-up" data-aos-delay="600">
+                    <a class="cz81t cdouf cnpw6 cdnfp carbw cynyd cnbzd cv5x1 cm27f c2xfw ckbx6 cnbst cpous cckl9 cw1xo c1gto c0vjw c07cc cayql"
+                      onclick="showLoginForm()" href="#0">Iniciar sesión</a>
+                  </div>
+                </form>
+              </div>
+            </div>
             <!-- Hero image -->
             <div data-aos="zoom-y-out" data-aos-delay="150">
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="
@@ -370,7 +485,7 @@
           <div class="creo4 ck5d4 crm25 c1gwx">
             <div class="c5j5d cdrow c5ivn cykqi c1spb ccd2c cl8ef cb4uz c4a2s" x-data="{ activeTab: 1 }">
               <!-- Left content -->
-              <div class="cibf7 c6y38 cfufg">
+              <div class="cibf7 c6y38 cfufg" data-aos="fade-up" data-aos-delay="100">
                 <div class="ckmmd cnsl6 c0u5w chuib czlz1 c93x7 cdrow cqmuf cdrak cjnt3 c0dcb cuq1a cnzyi c117c">
                   <span class="c7pbn cmgwh csuc4 ctbdc cgrvg cdrak">Conocenos</span>
                 </div>
@@ -399,7 +514,7 @@
                     x-transition:leave-start="cap0s c3rpv" x-transition:leave-end="csybr c2luz">
                     <!-- Local video -->
                     <div class="c0vjw c4a2s">
-                      <video class="c13of" style="transform: scaleX(-1);" autoplay loop muted playsinline>
+                      <video style="transform: scaleX(-1);" autoplay loop muted playsinline>
                         <source src="./images/chatbot.mp4" type="video/mp4" />
                     </div>
                   </div>
@@ -494,7 +609,7 @@
           <div class="creo4 ck5d4 crm25 c1gwx">
             <div class="c5j5d cdrow c5ivn cykqi c1spb ccd2c cl8ef cb4uz c4a2s" x-data="{ activeTab: 1 }">
               <!-- Left content -->
-              <div class="cibf7 c6y38 cfufg">
+              <div class="cibf7 c6y38 cfufg" data-aos="fade-up" data-aos-delay="100">
                 <div class="ckmmd cnsl6 c0u5w chuib czlz1 c93x7 cdrow cqmuf cdrak cjnt3 c0dcb cuq1a cnzyi c117c">
                   <span class="c7pbn cmgwh csuc4 ctbdc cgrvg cdrak">La ayuda que necesitas</span>
                 </div>
@@ -618,10 +733,10 @@
         <div class="cxbfd chf4b cqcwp cn7jq">
           <div class="creo4 ck5d4 crm25 c1gwx">
 
-            <div class="c4a2s cxbhj ckmmd cnsl6 c0u5w chuib czlz1 c93x7 cdrow cqmuf cjnt3 c0dcb cuq1a cnzyi c117c">
+            <div class="c4a2s cxbhj ckmmd cnsl6 c0u5w chuib czlz1 c93x7 cdrow cqmuf cjnt3 c0dcb cuq1a cnzyi c117c" data-aos="fade-up" data-aos-delay="100">
               <span class="c7pbn cmgwh csuc4 ctbdc cgrvg cdrak">Controles avanzados</span>
             </div>
-            <div class="cnv5k cczaz">
+            <div class="cnv5k cczaz" data-aos="fade-up" data-aos-delay="100">
               <h2 class="cfmhn clkfy ca6xa cmgwh ck08h cgrvg cjy9f czenk cm3px cfjwl">
                 La unión de todo
               </h2>
@@ -642,12 +757,11 @@
               </svg>
             </div>
 
-            <div class="cxj2n c82xa cvros c9gtw cbkjh cqwum c38j2 cnwi0 chpvb" aria-hidden="true"></div>
             <div class="cqcwp cxbfd cn7jq cx5hs">
               <div class="c1gwx ck5d4">
 
                 <!-- Logo animation -->
-                <div class="c0vjw c4a2s cl8ef cdrow cptnn">
+                <div class="c0vjw c4a2s cl8ef cdrow cptnn" data-aos="fade-up" data-aos-delay="100">
                   <!-- Blurred dots -->
                   <svg class="cxj2n ciebj cx9qa" width="557" height="93" xmlns="http://www.w3.org/2000/svg">
                     <defs>
@@ -726,41 +840,16 @@
                         <circle class="csy62 cy174 circ2" cx="400" cy="400" r="200"></circle>
                         <circle class="csy62 cv1ql circ3" cx="400" cy="400" r="200"></circle>
                         <circle class="csy62 crrby circ4" cx="400" cy="400" r="200"></circle>
-                        <rect fill="url(#lg-1)" width="800" height="800"></rect>
+                        <!-- <rect fill="url(#lg-1)" width="800" height="800"></rect> -->
                       </g>
                     </svg>
                     <!-- Logo -->
-                    <svg viewBox="0 0 32 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_3121_61)">
-                        <path
-                          d="M22.1797 0.328285C22.1439 0.38979 22.3285 0.884631 22.5766 1.39904C22.8384 1.93861 22.9184 2.12592 22.8881 2.12592C22.8495 2.12592 22.7254 2.04205 22.4415 1.82398C22.1466 1.59753 22.1191 1.58355 21.973 1.57237C21.769 1.55839 21.6092 1.6199 21.6092 1.71216C21.6092 1.85474 21.6698 2.29087 21.7111 2.4614C21.7718 2.71302 21.9041 3.01495 22.086 3.32807C22.1742 3.47345 22.2431 3.60205 22.2431 3.61323C22.2431 3.64399 22.1301 3.61323 21.9344 3.53216C21.6202 3.40355 21.5816 3.45388 21.6505 3.90398C21.7415 4.49388 21.8903 4.95237 22.1576 5.46678C22.2844 5.7156 22.3864 5.88055 22.8605 6.627C23.1609 7.09947 23.3566 7.49925 23.431 7.78721C23.511 8.10033 23.5303 8.63151 23.4724 8.967C23.3456 9.71345 22.8412 10.8569 22.1769 11.9109C22.075 12.073 21.9041 12.3833 21.7993 12.6042C21.5871 13.0487 21.5265 13.1466 21.0441 13.8119C19.3959 16.0848 18.8446 17.2674 18.4781 19.3111C18.2576 20.5384 18.0729 20.9969 17.6236 21.4107C17.3315 21.6846 17.0503 21.8104 16.2758 22.0201C15.5812 22.2046 15.1871 22.2438 12.7892 22.3528C10.846 22.4423 9.89787 22.4982 9.55058 22.5485C9.36867 22.5737 8.94972 22.5904 8.32405 22.596L7.37315 22.6044L7.31802 22.487C7.19399 22.227 6.98176 22.0872 6.70614 22.0872C6.41673 22.0872 6.17969 22.241 6.07496 22.4954C6.01983 22.6296 6.02535 22.898 6.08874 23.0433C6.14386 23.1775 6.30097 23.3313 6.43878 23.39C6.57108 23.4459 6.83568 23.4403 6.97901 23.376C7.11131 23.3201 7.2629 23.1608 7.32078 23.0238L7.35661 22.9343L9.05721 22.9175C9.99434 22.9064 11.1575 22.898 11.6453 22.898C12.4694 22.898 12.5356 22.9008 12.5769 22.9483C12.6376 23.0154 12.6348 23.0741 12.5769 23.1272C12.5328 23.1636 12.2903 23.1719 10.7909 23.1887C9.83723 23.1971 9.04619 23.2167 9.03241 23.2307C8.99382 23.2698 9.2722 23.4571 9.54231 23.5745C10.055 23.7982 10.383 23.8485 11.7418 23.9044C13.7731 23.9911 14.4071 24.1001 16.1931 24.6704C17.224 25.0031 18.7206 25.3805 19.5723 25.5231C20.446 25.6741 20.548 25.6797 21.871 25.6797H23.1113L23.533 25.5874C24.4564 25.3861 24.8725 25.1904 25.7573 24.5362C26.2727 24.156 26.6862 23.9519 27.2347 23.8038C27.513 23.7311 27.5489 23.7283 28.3757 23.7143C29.4148 23.7003 29.5527 23.7199 30.1783 23.9575C30.6248 24.1281 30.7819 24.1672 31.0989 24.198L31.2836 24.2147L31.4875 24.0722C31.6005 23.9967 31.6998 23.9212 31.708 23.9072C31.7163 23.8932 31.595 23.7562 31.4352 23.6025C31.1127 23.2866 30.9335 23.1831 30.4843 23.0517C29.7621 22.8393 29.2605 22.624 28.9215 22.378C28.8222 22.3053 28.599 22.1096 28.4253 21.9446C27.7997 21.3408 27.6288 21.2709 26.4739 21.1646C26.1266 21.1311 25.8235 21.1003 25.8014 21.0919C25.749 21.0752 25.7766 19.5935 25.84 19.0679C26.0247 17.533 26.4574 16.1911 27.1299 15.056C27.3504 14.6842 27.5847 14.3431 27.954 13.8595C28.4694 13.1857 28.6817 12.8279 28.8388 12.3582C28.9876 11.9137 29.0097 11.7319 29.0069 10.9464C29.0069 10.2111 28.9738 9.79732 28.8305 8.6399C28.5632 6.49839 27.9099 4.69237 26.9232 3.35882C26.6476 2.98699 26.5539 2.88635 26.4519 2.86678C26.3306 2.83882 26.2975 2.80807 26.2286 2.64312C26.1514 2.47259 26.0136 2.34119 25.4266 1.89388C24.5887 1.25366 23.8445 0.79237 23.2712 0.560327C22.8495 0.38979 22.221 0.258392 22.1797 0.328285ZM6.81087 22.3416C6.94317 22.3864 7.08099 22.5289 7.11406 22.6547C7.19399 22.9539 6.87978 23.2698 6.59313 23.1747C6.36161 23.1021 6.22104 22.8588 6.28719 22.6519C6.34231 22.4758 6.51596 22.3276 6.68684 22.3137C6.70338 22.3109 6.75851 22.3248 6.81087 22.3416Z"
-                          fill="url(#paint0_linear_3121_61)" />
-                        <path
-                          d="M0.758072 3.43835C0.631285 3.49706 0.479692 3.65642 0.424567 3.7934C0.369442 3.9276 0.374954 4.19599 0.438348 4.34136C0.493473 4.47556 0.650579 4.62932 0.788391 4.68803C0.920691 4.74394 1.18529 4.73835 1.32862 4.67405C1.46091 4.61814 1.61251 4.45878 1.67039 4.3162L1.70898 4.22394H3.49778C5.19287 4.22394 5.28658 4.22674 5.32793 4.27427C5.38856 4.34136 5.38581 4.40007 5.32517 4.45599C5.28107 4.49792 5.19838 4.50351 4.72982 4.50351C4.30812 4.50351 4.18684 4.5119 4.19511 4.53706C4.20338 4.55663 4.29433 4.63211 4.39907 4.7048C4.50381 4.77749 4.59201 4.85018 4.59752 4.86695C4.60303 4.88093 4.56996 4.97878 4.5231 5.07943C4.47625 5.18287 4.43766 5.27792 4.43766 5.2947C4.43766 5.31427 4.52586 5.41771 4.63335 5.52674L4.82905 5.72803L4.75463 5.77835C4.71328 5.80631 4.5865 5.85663 4.47073 5.89018C4.35222 5.92373 3.8809 6.10545 3.42061 6.28996L2.58271 6.62545L2.48624 6.53878C2.35118 6.41857 2.23266 6.37663 2.04248 6.37663C1.83576 6.37663 1.66763 6.44932 1.54636 6.58631C1.41957 6.73168 1.37823 6.8491 1.37823 7.0448C1.37823 7.25448 1.44989 7.42502 1.58495 7.54803C1.72827 7.67663 1.84403 7.71857 2.03421 7.71857C2.40906 7.71857 2.66815 7.48093 2.69847 7.1091L2.71501 6.93018L3.54188 6.59749C3.99666 6.41577 4.3908 6.25362 4.41561 6.23685C4.44868 6.21728 5.20941 6.20889 6.77495 6.20889C8.97995 6.20889 9.0902 6.21168 9.13154 6.25921C9.19218 6.32631 9.18942 6.38502 9.12879 6.44093C9.08193 6.48287 8.92758 6.48846 7.48882 6.48846C6.54894 6.48846 5.89847 6.49964 5.89847 6.51362C5.89847 6.54437 6.41389 6.85749 6.91828 7.13147C7.21871 7.29642 8.52517 7.94222 8.55824 7.94222C8.561 7.94222 8.68779 7.99814 8.83387 8.06803C9.09296 8.19104 9.10123 8.19663 9.0461 8.23857C9.01303 8.26093 8.91656 8.30566 8.83111 8.33642C8.68503 8.38674 8.59132 8.38953 7.60183 8.38953H6.5324L6.29537 8.21341C6.08865 8.05964 6.06384 8.03168 6.07762 7.97018C6.12448 7.77728 6.12448 7.52287 6.07762 7.39986C6.0225 7.25728 5.86264 7.09233 5.71656 7.03082C5.58426 6.97491 5.31966 6.9805 5.17633 7.0448C5.04403 7.10072 4.89244 7.26007 4.83456 7.39986C4.77943 7.53405 4.78495 7.80244 4.84834 7.94781C4.90898 8.09319 5.0964 8.26652 5.23697 8.30846C5.3362 8.33921 5.59528 8.33082 5.73861 8.29168C5.802 8.27491 5.85437 8.30287 6.09967 8.48459L6.38908 8.69706H9.90605H13.423V8.83685V8.97663H12.1C11.32 8.97663 10.777 8.98781 10.777 9.00179C10.777 9.01577 10.8597 9.07448 10.9644 9.13319C11.3696 9.36244 11.9898 9.79298 11.9898 9.84609C11.9898 9.86007 11.9402 9.89642 11.8795 9.92717C11.7996 9.9691 11.7169 9.98308 11.5626 9.98308H11.3531L11.3035 9.86287C11.2483 9.73147 11.0912 9.57771 10.9534 9.519C10.8211 9.46308 10.5565 9.46867 10.4132 9.53298C10.2809 9.58889 10.1293 9.74824 10.0714 9.88803C10.0163 10.0222 10.0218 10.2906 10.0852 10.436C10.1403 10.5702 10.2974 10.7239 10.4352 10.7827C10.5675 10.8386 10.8321 10.833 10.9755 10.7687C11.116 10.7072 11.218 10.6009 11.309 10.4304L11.3751 10.3046L13.9329 10.2962C16.7222 10.2906 16.6203 10.285 16.6203 10.4444C16.6203 10.6009 16.6561 10.5981 14.7267 10.5981C13.7538 10.5981 12.9517 10.6065 12.9462 10.6177C12.9379 10.6317 13.0234 10.7407 13.1364 10.8637C13.2494 10.9867 13.3403 11.1042 13.3403 11.1237C13.3403 11.1433 13.2576 11.1992 13.1529 11.2495L12.9682 11.339L11.6976 11.3474L10.4297 11.3558L10.0191 10.8917C9.79304 10.6345 9.58357 10.408 9.55325 10.3857C9.50639 10.3549 9.34102 10.3465 8.66298 10.3465H7.82784L7.79201 10.2543C7.74791 10.148 7.57978 9.99147 7.45299 9.93835C7.32069 9.88244 7.05609 9.88803 6.91277 9.95233C6.78047 10.0082 6.62887 10.1676 6.57099 10.3074C6.51587 10.4416 6.52138 10.71 6.58477 10.8553C6.6399 10.9895 6.797 11.1433 6.93482 11.202C7.06712 11.2579 7.33172 11.2523 7.47504 11.188C7.62112 11.1265 7.78925 10.9364 7.83335 10.7882L7.86367 10.682H8.62439H9.38512L9.71036 11.051C9.88951 11.2523 10.0301 11.4313 10.0246 11.448C10.0191 11.4648 9.69382 11.6074 9.30243 11.7639L8.59132 12.0491L8.49485 11.9624C8.3598 11.8422 8.24128 11.8003 8.0511 11.8003C7.84438 11.8003 7.67625 11.873 7.55497 12.01C7.42818 12.1553 7.38684 12.2728 7.38684 12.4685C7.38684 12.6781 7.4585 12.8487 7.59356 12.9717C7.73688 13.1003 7.85265 13.1422 8.04283 13.1422C8.41768 13.1422 8.67676 12.9046 8.70708 12.5328L8.72362 12.3538L9.55049 12.0211C10.0053 11.8394 10.3994 11.6773 10.4242 11.6605C10.4573 11.6409 11.218 11.6325 12.7836 11.6325C14.9886 11.6325 15.0988 11.6353 15.1402 11.6829C15.2008 11.75 15.198 11.8087 15.1374 11.8646C15.0933 11.9065 15.0106 11.9121 14.5476 11.9121C14.2526 11.9121 14.0046 11.9205 13.9936 11.9289C13.9853 11.9401 14.0129 11.9988 14.0542 12.0631C14.181 12.2476 14.498 12.8151 14.498 12.8543C14.498 12.8738 14.4235 12.927 14.3326 12.9745L14.17 13.0584H13.3541H12.5383L12.4887 12.9381C12.4335 12.8067 12.2764 12.653 12.1386 12.5943C12.0063 12.5384 11.7417 12.5439 11.5984 12.6082C11.4661 12.6642 11.3145 12.8235 11.2566 12.9633C11.2015 13.0975 11.207 13.3659 11.2704 13.5113C11.3255 13.6454 11.4826 13.7992 11.6204 13.8579C11.7527 13.9138 12.0173 13.9082 12.1607 13.8439C12.3012 13.7824 12.4032 13.6762 12.4942 13.5057L12.5603 13.3799L15.1181 13.3715C17.9074 13.3659 17.8054 13.3603 17.8054 13.5196C17.8054 13.6734 17.8054 13.6734 16.3116 13.6734C15.4957 13.6734 14.9362 13.6846 14.9252 13.6986C14.9169 13.7125 14.95 13.8244 14.9968 13.9446C15.1787 14.4059 15.3524 14.9091 15.3386 14.9343C15.3055 14.9846 15.0713 15.1076 14.8811 15.1719L14.6854 15.239H12.7174H10.7495L10.5124 15.0629C10.3057 14.9091 10.2809 14.8811 10.2947 14.8196C10.3415 14.6267 10.3415 14.3723 10.2947 14.2493C10.2396 14.1067 10.0797 13.9418 9.93361 13.8803C9.80131 13.8244 9.53671 13.83 9.39339 13.8943C9.26109 13.9502 9.10949 14.1095 9.05161 14.2493C8.99649 14.3835 9.002 14.6519 9.06539 14.7973C9.12603 14.9427 9.31346 15.116 9.45402 15.1579C9.55325 15.1887 9.81234 15.1803 9.95566 15.1411C10.0191 15.1244 10.0742 15.1551 10.336 15.348L10.6447 15.5745H10.89C11.0251 15.5745 11.1353 15.5829 11.1353 15.5941C11.1353 15.6052 11.083 15.6975 11.0223 15.8037L10.9093 15.9938H10.1238H9.34102L9.29141 15.8736C9.23628 15.7422 9.07918 15.5885 8.94136 15.5298C8.80906 15.4738 8.54446 15.4794 8.40114 15.5437C8.26884 15.5996 8.11725 15.759 8.05936 15.8988C8.00424 16.033 8.00975 16.3014 8.07315 16.4467C8.12827 16.5809 8.28538 16.7347 8.42319 16.7934C8.55549 16.8493 8.82009 16.8437 8.96341 16.7794C9.09571 16.7235 9.24731 16.5642 9.30519 16.4216L9.34377 16.3293H10.212C11.0444 16.3293 11.083 16.3265 11.1353 16.2734C11.1657 16.2427 11.1905 16.2063 11.1905 16.1923C11.1905 16.1448 11.524 15.6164 11.5846 15.5689C11.6397 15.5242 11.8189 15.5186 14.17 15.5186C16.5817 15.5186 16.6974 15.5214 16.7388 15.5689C16.7994 15.636 16.7967 15.6947 16.736 15.7506C16.6919 15.7925 16.6092 15.7981 16.171 15.7981C15.8899 15.7981 15.6528 15.8093 15.6446 15.8205C15.6363 15.8345 15.6611 15.9491 15.6997 16.0805C15.7989 16.4216 15.7934 16.4328 15.5343 16.567L15.3138 16.6788L14.6303 16.6872L13.9467 16.6956L13.8943 16.5753C13.8392 16.4411 13.6821 16.2874 13.5443 16.2287C13.412 16.1728 13.1474 16.1784 13.0041 16.2427C12.8718 16.2986 12.7202 16.4579 12.6623 16.5977C12.6072 16.7319 12.6127 17.0003 12.6761 17.1457C12.7312 17.2799 12.8883 17.4336 13.0261 17.4923C13.1584 17.5482 13.423 17.5427 13.5663 17.4784C13.7069 17.4168 13.8089 17.3106 13.8998 17.1401L13.966 17.0143L15.5867 17.0059C17.3507 17.0003 17.3369 16.9975 17.3369 17.1513C17.3369 17.2827 17.2873 17.2938 16.6368 17.3078L16.0277 17.3218L16.0359 17.4644C16.0442 17.5986 16.0387 17.6153 15.9643 17.6685C15.9174 17.6992 15.8044 17.7635 15.7079 17.811L15.5315 17.8949H13.5112H11.4909L11.4413 17.7747C11.3862 17.6433 11.229 17.4895 11.0912 17.4308C10.9589 17.3749 10.6943 17.3805 10.551 17.4448C10.4187 17.5007 10.2671 17.6601 10.2092 17.7999C10.1541 17.9341 10.1596 18.2024 10.223 18.3478C10.2781 18.482 10.4352 18.6358 10.5731 18.6945C10.7054 18.7504 10.97 18.7448 11.1133 18.6805C11.2539 18.619 11.3558 18.5128 11.4468 18.3422L11.5129 18.2164H14.1286H16.7443V18.3562V18.496L16.51 18.5044C16.3805 18.51 16.2675 18.5211 16.2537 18.5351C16.2427 18.5463 16.2537 18.6917 16.2785 18.8538C16.3033 19.016 16.3171 19.1698 16.3088 19.1921C16.3005 19.2145 16.1848 19.2872 16.0525 19.3543L15.8127 19.4745L14.1644 19.4885C13.0096 19.4968 12.5079 19.5108 12.4859 19.5332C12.4694 19.55 12.3839 19.6898 12.2985 19.8407L12.1414 20.1175L11.9622 20.1315C11.7362 20.151 11.6149 20.207 11.4964 20.3411C11.3696 20.4865 11.3283 20.6039 11.3283 20.7996C11.3283 21.0848 11.4826 21.328 11.7307 21.4343C11.863 21.4902 12.1276 21.4846 12.2709 21.4203C12.4032 21.3644 12.5548 21.205 12.6127 21.0652C12.6954 20.8639 12.6347 20.467 12.5024 20.3579C12.4776 20.3384 12.4583 20.302 12.4583 20.2796C12.4583 20.2349 12.6375 19.8938 12.7009 19.8156C12.7395 19.7708 12.8883 19.768 15.1016 19.768C17.1936 19.768 17.4692 19.7736 17.5243 19.8128C17.5987 19.8631 17.6015 19.9386 17.5353 20.0001C17.494 20.0392 17.4003 20.0476 16.962 20.0532L16.4411 20.0616L16.4494 20.1594C16.4659 20.3663 16.5403 20.9199 16.5679 21.0513C16.6147 21.2749 16.634 21.2889 16.8104 21.219C17.0282 21.1351 17.1054 21.0904 17.2321 20.9758C17.5271 20.7074 17.6869 20.2824 17.8633 19.3151C18.0921 18.0319 18.3126 17.3106 18.7701 16.3433C19.1312 15.5773 19.7486 14.5736 20.4459 13.6259C20.8952 13.0136 21.0964 12.7061 21.2287 12.4265C21.339 12.1973 21.339 12.1917 21.2921 12.119C21.2204 12.0072 20.7574 11.5543 20.3715 11.2188C19.4482 10.4108 18.4835 9.73706 16.6892 8.64394C15.2587 7.77168 14.3767 7.30201 13.1612 6.75685C11.5874 6.04953 8.04007 4.71039 6.16031 4.10932C5.52913 3.90803 5.64214 3.91642 3.57771 3.91642H1.71449L1.66488 3.79061C1.61251 3.65082 1.44989 3.48588 1.30657 3.42437C1.17978 3.37125 0.893128 3.37685 0.758072 3.43835ZM1.16048 3.63964C1.29278 3.68437 1.4306 3.82695 1.46367 3.95276C1.5436 4.2519 1.22939 4.56781 0.942741 4.47276C0.711216 4.40007 0.570648 4.15685 0.636798 3.94996C0.691923 3.77383 0.865566 3.62566 1.03645 3.61168C1.05299 3.60889 1.10812 3.62287 1.16048 3.63964ZM2.15273 6.63104C2.28503 6.67577 2.42284 6.81835 2.45592 6.94416C2.53585 7.2433 2.22164 7.55921 1.93499 7.46416C1.70346 7.39147 1.5629 7.14824 1.62905 6.94136C1.68417 6.76523 1.85781 6.61706 2.0287 6.60308C2.04524 6.60029 2.10036 6.61427 2.15273 6.63104ZM5.57048 7.24609C5.70278 7.29082 5.84059 7.43341 5.87366 7.55921C5.95359 7.85835 5.63938 8.17427 5.35273 8.07921C5.12121 8.00652 4.98064 7.7633 5.04679 7.55642C5.10191 7.38029 5.27556 7.23211 5.44644 7.21814C5.46298 7.21534 5.51811 7.22932 5.57048 7.24609ZM14.3381 8.74459C14.4015 8.8033 14.4015 8.87039 14.3353 8.9319C14.294 8.97104 14.2361 8.97663 13.9991 8.97104L13.7124 8.96265L13.7042 8.87039C13.6876 8.70265 13.6959 8.69706 14.0046 8.69706C14.2278 8.69706 14.2967 8.70545 14.3381 8.74459ZM10.8073 9.73427C10.9396 9.779 11.0775 9.92158 11.1105 10.0474C11.1905 10.3465 10.8762 10.6624 10.5896 10.5674C10.3581 10.4947 10.2175 10.2515 10.2837 10.0446C10.3388 9.86846 10.5124 9.72029 10.6833 9.70631C10.6998 9.70351 10.755 9.71749 10.8073 9.73427ZM7.30691 10.1536C7.43921 10.1984 7.57702 10.3409 7.6101 10.4667C7.69003 10.7659 7.37582 11.0818 7.08917 10.9867C6.85764 10.9141 6.71707 10.6708 6.78322 10.4639C6.83835 10.2878 7.01199 10.1396 7.18288 10.1257C7.19942 10.1229 7.25454 10.1368 7.30691 10.1536ZM8.16135 12.0547C8.29365 12.0994 8.43146 12.242 8.46453 12.3678C8.54446 12.667 8.23025 12.9829 7.9436 12.8878C7.71208 12.8151 7.57151 12.5719 7.63766 12.365C7.69278 12.1889 7.86643 12.0407 8.03731 12.0267C8.05385 12.0239 8.10898 12.0379 8.16135 12.0547ZM11.9925 12.8095C12.1248 12.8543 12.2626 12.9968 12.2957 13.1227C12.3756 13.4218 12.0614 13.7377 11.7748 13.6427C11.5433 13.57 11.4027 13.3267 11.4688 13.1199C11.524 12.9437 11.6976 12.7956 11.8685 12.7816C11.885 12.7788 11.9402 12.7928 11.9925 12.8095ZM9.78753 14.0956C9.91983 14.1403 10.0576 14.2829 10.0907 14.4087C10.1706 14.7078 9.85644 15.0237 9.56979 14.9287C9.33826 14.856 9.19769 14.6128 9.26384 14.4059C9.31897 14.2298 9.49261 14.0816 9.6635 14.0676C9.68004 14.0648 9.73516 14.0788 9.78753 14.0956ZM18.3622 15.5661C18.4256 15.6248 18.4256 15.6919 18.3622 15.7534C18.3154 15.7925 18.2354 15.7981 17.6649 15.7925L17.0199 15.7842L17.0116 15.6919C16.9951 15.513 16.9703 15.5186 17.6704 15.5186C18.2272 15.5186 18.3181 15.5242 18.3622 15.5661ZM8.79528 15.745C8.92758 15.7898 9.06539 15.9323 9.09847 16.0581C9.1784 16.3573 8.86419 16.6732 8.57754 16.5781C8.34601 16.5054 8.20545 16.2622 8.2716 16.0553C8.32672 15.8792 8.50036 15.731 8.67125 15.7171C8.68779 15.7143 8.74291 15.7282 8.79528 15.745ZM13.3982 16.4439C13.5305 16.4887 13.6683 16.6313 13.7014 16.7571C13.7813 17.0562 13.4671 17.3721 13.1805 17.2771C12.9489 17.2044 12.8084 16.9611 12.8745 16.7543C12.9296 16.5781 13.1033 16.43 13.2742 16.416C13.2907 16.4132 13.3458 16.4272 13.3982 16.4439ZM10.9452 17.6461C11.0775 17.6908 11.2153 17.8334 11.2483 17.9592C11.3283 18.2584 11.0141 18.5743 10.7274 18.4792C10.4959 18.4065 10.3553 18.1633 10.4215 17.9564C10.4766 17.7803 10.6502 17.6321 10.8211 17.6181C10.8377 17.6153 10.8928 17.6293 10.9452 17.6461ZM17.7834 18.25C17.8468 18.3087 17.8468 18.3758 17.7806 18.4373C17.7393 18.4764 17.6814 18.482 17.4444 18.4764L17.1577 18.468L17.1495 18.3758C17.1329 18.208 17.1412 18.2024 17.4499 18.2024C17.6731 18.2024 17.7421 18.2108 17.7834 18.25ZM12.1028 20.3859C12.2351 20.4306 12.3729 20.5732 12.406 20.699C12.4859 20.9981 12.1717 21.3141 11.885 21.219C11.6535 21.1463 11.5129 20.9031 11.5791 20.6962C11.6342 20.5201 11.8079 20.3719 11.9787 20.3579C11.9953 20.3551 12.0504 20.3691 12.1028 20.3859Z"
-                          fill="url(#paint1_linear_3121_61)" />
-                      </g>
-                      <defs>
-                        <linearGradient id="paint0_linear_3121_61" x1="18.8728" y1="0.309132" x2="18.4578" y2="31.1994"
-                          gradientUnits="userSpaceOnUse">
-                          <stop stop-color="white" />
-                          <stop offset="1" stop-color="#005AFF" />
-                        </linearGradient>
-                        <linearGradient id="paint1_linear_3121_61" x1="10.8542" y1="3.38807" x2="10.5957" y2="25.4081"
-                          gradientUnits="userSpaceOnUse">
-                          <stop stop-color="white" />
-                          <stop offset="1" stop-color="#005AFF" />
-                        </linearGradient>
-                        <clipPath id="clip0_3121_61">
-                          <rect width="32" height="26" fill="white" />
-                        </clipPath>
-                      </defs>
-                    </svg>
-
+                    <img src="./images/logo-iris-circle.svg" width="200" height="200" alt="IRIS">
                   </div>
                 </div>
 
                 <!-- Integration boxes -->
-                <div class="c0vjw cqcwp cu42g c9k3o c6dyc cz5uw cyw8w cv5m0 cqtp0 caadi cvirx cq4te">
+                <div class="c0vjw cqcwp cu42g c9k3o c6dyc cz5uw cyw8w cv5m0 cqtp0 caadi cg3ls c8in0">
                   <!-- Top vertical line -->
                   <div class="cxj2n c82xa cjy0z c9luo c9gtw cbkjh cqwum c38j2 cnwi0 chpvb" aria-hidden="true"></div>
                   <div class="c0vjw c4a2s c0taz cdrow cxbhj cnwi0 ckuz5" data-aos="fade-up">
@@ -826,10 +915,10 @@
         <div class="cxbfd cx5hs cqcwp cn7jq">
           <div class="ck5d4 c1gwx">
             <!-- Section header -->
-            <div class="c4a2s cxbhj ckmmd cnsl6 c0u5w chuib czlz1 c93x7 cdrow cqmuf cjnt3 c0dcb cuq1a cnzyi c117c">
-              <span class="c7pbn cmgwh csuc4 ctbdc cgrvg cdrak">Controles avanzados</span>
+            <div class="c4a2s cxbhj ckmmd cnsl6 c0u5w chuib czlz1 c93x7 cdrow cqmuf cjnt3 c0dcb cuq1a cnzyi c117c" data-aos="fade-up" data-aos-delay="100">
+              <span class="c7pbn cmgwh csuc4 ctbdc cgrvg cdrak">Para cualquier tipo de información</span>
             </div>
-            <div class="cczaz c441s ccd2c cqcwp cx4ct">
+            <div class="cczaz c441s ccd2c cqcwp cx4ct" data-aos="fade-up" data-aos-delay="100">
               <h2 class="ctwfu cmrh3 cep6s c0clt">
                 Información de todo tipo
               </h2>
@@ -974,9 +1063,26 @@
               </h2>
               <p class="cthiu cf2y5 cqcwp">
                 <b>IRIS</b> evoluciona continuamente para tu asistencia integral a través de nuestro compromiso
-                constante con la innovación y la optimización de procesos con precisión y rápidez ¡E
-              spera nuestras mejoras que tenemos para ti!
+                constante con la innovación y la optimización de procesos con precisión y rápidez
+                ¡Espera nuestras mejoras que tenemos para ti!
               </p>
+            </div>
+
+            <div class="c441s cqcwp">
+              <div data-aos="fade-down">
+                <div class="c73l4" data-highlighter="">
+                  <div
+                    class="c834w c2dmz cgj2h cj3ir carbw cck46 ca99c csey4 cjvxe cjijg crcid ck41d c40tf csdod coafw c2xfw cpspx cbgn6 overflow-hidden c3stx c030e c4m92 cnlp0 cmgcy czde0 c45mq cww8d cnhmh c0vjw c2zs5">
+                    <div class="cgq9w overflow-hidden cp877 c0vjw cg0u5 c3w9h">
+                      <!-- Radial gradient -->
+                      <div class="cc8v2 c38j2 cydfs c0taz c82xa cxj2n cvros cq3mk ci34p" aria-hidden="true">
+                        <div class="cje6l cg3aq ci4ze csv9q cxj2n cogum"></div>
+                      </div>
+                      <img src="./images/feature-image.png" width="768" height="400" alt="Feature 04">
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
 
           </div>
@@ -1137,7 +1243,7 @@
 
       <!-- Empieza a usar IRIS -->
 
-      <section class="overflow-hidden c0vjw vjskw cqcwp">
+      <section class="overflow-hidden c0vjw cqcwp">
         <div class="cxj2n cogum" aria-hidden="true">
           <canvas data-particle-animation=""></canvas>
         </div>
@@ -1173,739 +1279,6 @@
         </div>
       </section>
 
-      <!-- Business Categories -->
-      <section>
-        <div class="cxbfd cx5hs cqcwp cn7jq">
-          <div>
-            <!-- Tabs component -->
-            <div x-data="{ activeTab: 1 }">
-              <!-- Buttons -->
-              <div class="cxbhj c4a2s">
-                <div role="tablist"
-                  class="csoaf cdouf cnpw6 cimn0 carbw cynyd cv5x1 cy259 cz62q c2xfw cnbst cxbhj cpous cdrak chcxa c81cr cwoyc c0vjw cgwj6 c60f3 ckuz5"
-                  @keydown.right.prevent.stop="$focus.wrap().next()" @keydown.left.prevent.stop="$focus.wrap().prev()"
-                  @keydown.home.prevent.stop="$focus.first()" @keydown.end.prevent.stop="$focus.last()">
-                  <!-- Button #1 -->
-                  <button id="tab-1"
-                    class="cdlu6 cs5wq c5dhx cyywn cv7k7 cdrow cc7ls cl954 cgvdk cnrm4 cfxr2 c4a2s cblyd cbkjh"
-                    :class="activeTab === 1 ? 'cbzch ctwfu' : 'ce0zw'" :tabindex="activeTab === 1 ? 0 : -1"
-                    :aria-selected="activeTab === 1" aria-controls="tabpanel-1" @click="activeTab = 1"
-                    @focus="activeTab = 1">
-                    <svg class="cturl" :class="activeTab === 1 ? 'chql7' : 'cn0bb'" xmlns="http://www.w3.org/2000/svg"
-                      width="16" height="16">
-                      <path d="M8 2a6 6 0 1 0 0 12A6 6 0 0 0 8 2ZM0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Z"></path>
-                    </svg>
-                    <span>Startups</span>
-                  </button>
-                  <!-- Button #2 -->
-                  <button id="tab-2"
-                    class="cdlu6 cs5wq c5dhx cyywn cv7k7 cdrow cc7ls cl954 cgvdk cnrm4 cfxr2 c4a2s cblyd cbkjh"
-                    :class="activeTab === 2 ? 'cbzch ctwfu' : 'ce0zw'" :tabindex="activeTab === 2 ? 0 : -1"
-                    :aria-selected="activeTab === 2" aria-controls="tabpanel-2" @click="activeTab = 2"
-                    @focus="activeTab = 2">
-                    <svg class="cturl" :class="activeTab === 1 ? 'chql7' : 'cn0bb'" xmlns="http://www.w3.org/2000/svg"
-                      width="16" height="16">
-                      <path
-                        d="M5.936.278A7.983 7.983 0 0 1 8 0a8 8 0 1 1-8 8c0-.722.104-1.413.278-2.064a1 1 0 1 1 1.932.516A5.99 5.99 0 0 0 2 8a6 6 0 1 0 6-6c-.53 0-1.045.076-1.548.21A1 1 0 1 1 5.936.278Zm.132 7.204A2.003 2.003 0 0 0 8 10a2 2 0 1 0-.518-3.932L3.707 2.293a1 1 0 0 0-1.414 1.414l3.775 3.775Z">
-                      </path>
-                    </svg>
-                    <span>Web Apps</span>
-                  </button>
-                  <!-- Button #3 -->
-                  <button id="tab-3"
-                    class="cdlu6 cs5wq c5dhx cyywn cv7k7 cdrow cc7ls cl954 cgvdk cnrm4 cfxr2 c4a2s cblyd cbkjh"
-                    :class="activeTab === 3 ? 'cbzch ctwfu' : 'ce0zw'" :tabindex="activeTab === 3 ? 0 : -1"
-                    :aria-selected="activeTab === 3" aria-controls="tabpanel-3" @click="activeTab = 3"
-                    @focus="activeTab = 3">
-                    <svg class="cturl" :class="activeTab === 1 ? 'chql7' : 'cn0bb'" xmlns="http://www.w3.org/2000/svg"
-                      width="16" height="16">
-                      <path
-                        d="M3 2a1 1 0 0 0-2 0v12a1 1 0 1 0 2 0V2Zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm4 12a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm-5 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm5-13a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm4 0a1 1 0 1 0-2 0v12a1 1 0 1 0 2 0V2Z">
-                      </path>
-                    </svg>
-                    <span>eCommerce</span>
-                  </button>
-                  <!-- Button #4 -->
-                  <button id="tab-4"
-                    class="cdlu6 cs5wq c5dhx cyywn cv7k7 cdrow cc7ls cl954 cgvdk cnrm4 cfxr2 c4a2s cblyd cbkjh"
-                    :class="activeTab === 4 ? 'cbzch ctwfu' : 'ce0zw'" :tabindex="activeTab === 4 ? 0 : -1"
-                    :aria-selected="activeTab === 4" aria-controls="tabpanel-4" @click="activeTab = 4"
-                    @focus="activeTab = 4">
-                    <svg class="cturl" :class="activeTab === 1 ? 'chql7' : 'cn0bb'" xmlns="http://www.w3.org/2000/svg"
-                      width="16" height="16">
-                      <path
-                        d="M.06 10.003a1 1 0 0 1 1.947.455c-.019.08.01.152.078.19l5.83 3.333c.052.03.115.03.168 0l5.83-3.333a.163.163 0 0 0 .078-.188 1 1 0 1 1 1.947-.459 2.161 2.161 0 0 1-1.032 2.384l-5.83 3.331a2.168 2.168 0 0 1-2.154 0l-5.83-3.331A2.162 2.162 0 0 1 .06 10.003Zm7.855-7.981-5.83 3.332a.17.17 0 0 0 0 .295l5.828 3.33a.172.172 0 0 0 .17.002l5.83-3.333a.17.17 0 0 0 0-.294L8.084 2.023a.172.172 0 0 0-.17-.001h.001ZM9.075.285l5.83 3.332c1.458.833 1.458 2.935 0 3.768l-5.83 3.333c-.667.38-1.485.38-2.153-.001l-5.83-3.332c-1.457-.833-1.457-2.935 0-3.767L6.924.285a2.173 2.173 0 0 1 2.15 0h.001Z">
-                      </path>
-                    </svg>
-                    <span>Enteprise</span>
-                  </button>
-                </div>
-              </div>
-
-              <div class="cxbhj cdrow cahd5 c0vjw c4a2s">
-                <!-- Small blue dots -->
-                <div class="cxj2n ci34p">
-                  <svg class="c4ow8" xmlns="http://www.w3.org/2000/svg" width="164" height="41" viewBox="0 0 164 41"
-                    fill="none">
-                    <circle cx="1" cy="8" r="1" fill-opacity="0.24"></circle>
-                    <circle cx="1" cy="1" r="1" fill-opacity="0.16"></circle>
-                    <circle cx="1" cy="15" r="1"></circle>
-                    <circle cx="1" cy="26" r="1" fill-opacity="0.64"></circle>
-                    <circle cx="1" cy="33" r="1" fill-opacity="0.24"></circle>
-                    <circle cx="8" cy="8" r="1"></circle>
-                    <circle cx="8" cy="15" r="1"></circle>
-                    <circle cx="8" cy="26" r="1" fill-opacity="0.24"></circle>
-                    <circle cx="15" cy="15" r="1" fill-opacity="0.64"></circle>
-                    <circle cx="15" cy="26" r="1" fill-opacity="0.16"></circle>
-                    <circle cx="8" cy="33" r="1"></circle>
-                    <circle cx="1" cy="40" r="1"></circle>
-                    <circle cx="1" cy="1" r="1" transform="matrix(-1 0 0 1 164 7)" fill-opacity="0.24"></circle>
-                    <circle cx="1" cy="1" r="1" transform="matrix(-1 0 0 1 164 0)" fill-opacity="0.16"></circle>
-                    <circle cx="1" cy="1" r="1" transform="matrix(-1 0 0 1 164 14)"></circle>
-                    <circle cx="1" cy="1" r="1" transform="matrix(-1 0 0 1 164 25)" fill-opacity="0.64"></circle>
-                    <circle cx="1" cy="1" r="1" transform="matrix(-1 0 0 1 164 32)" fill-opacity="0.24"></circle>
-                    <circle cx="1" cy="1" r="1" transform="matrix(-1 0 0 1 157 7)"></circle>
-                    <circle cx="1" cy="1" r="1" transform="matrix(-1 0 0 1 157 14)"></circle>
-                    <circle cx="1" cy="1" r="1" transform="matrix(-1 0 0 1 157 25)" fill-opacity="0.24"></circle>
-                    <circle cx="1" cy="1" r="1" transform="matrix(-1 0 0 1 150 14)" fill-opacity="0.64"></circle>
-                    <circle cx="1" cy="1" r="1" transform="matrix(-1 0 0 1 150 25)" fill-opacity="0.16"></circle>
-                    <circle cx="1" cy="1" r="1" transform="matrix(-1 0 0 1 157 32)"></circle>
-                    <circle cx="1" cy="1" r="1" transform="matrix(-1 0 0 1 164 39)"></circle>
-                  </svg>
-                </div>
-                <!-- Blue glow -->
-                <div class="cxj2n ci34p">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="432" height="160" viewBox="0 0 432 160" fill="none">
-                    <g opacity="0.6" filter="url(#filter0_f_2044_9)">
-                      <path class="c4ow8" fill-rule="evenodd" clip-rule="evenodd"
-                        d="M80 112C62.3269 112 48 97.6731 48 80C48 62.3269 62.3269 48 80 48C97.6731 48 171 62.3269 171 80C171 97.6731 97.6731 112 80 112ZM352 112C369.673 112 384 97.6731 384 80C384 62.3269 369.673 48 352 48C334.327 48 261 62.3269 261 80C261 97.6731 334.327 112 352 112Z">
-                      </path>
-                    </g>
-                    <defs>
-                      <filter id="filter0_f_2044_9" x="0" y="0" width="432" height="160" filterUnits="userSpaceOnUse"
-                        color-interpolation-filters="sRGB">
-                        <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
-                        <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
-                        <feGaussianBlur stdDeviation="32" result="effect1_foregroundBlur_2044_9"></feGaussianBlur>
-                      </filter>
-                    </defs>
-                  </svg>
-                </div>
-                <!-- Horizontal lines -->
-                <div class="cxju3 c7pbn cev45 cedzu cniyu ckk6a cxj2n cvd4p ci34p cmce1"></div>
-                <div class="cxju3 c7pbn cev45 cedzu cniyu ckk6a cxj2n cvros ci34p cmce1"></div>
-                <div class="cxju3 cy2uf c7pbn cev45 c1xou cedzu cxj2n ciebj ci34p cmce1"></div>
-                <div
-                  class="clxah cet77 cao07 cihmh cxju3 csljt c7pbn cev45 c2xfw cedzu cniyu c1hbo ckk6a cxj2n ciebj ci34p cmce1">
-                </div>
-                <div
-                  class="crjfc cet77 cufgj cihmh cxju3 csljt c7pbn cev45 c2xfw cedzu cniyu c1hbo ckk6a cxj2n ciebj ci34p cmce1">
-                </div>
-                <!-- Diagonal lines -->
-                <div class="cxju3 c0zts cozp9 c7pbn cev45 cedzu cniyu cxj2n ciebj ci34p cmce1"></div>
-                <div class="cxju3 c0zts czmvk c7pbn cev45 cedzu cniyu cxj2n ciebj ci34p cmce1"></div>
-                <!-- Vertical lines -->
-                <div class="cgj8i cxju3 cm27f cedzu c2zxn c0u45 c82xa cxj2n ci34p cr0pe"></div>
-                <div class="cd2xo cxju3 cnky1 cedzu c2zxn c0u45 c82xa cxj2n ci34p cr0pe"></div>
-                <!-- Logos -->
-                <div class="ckmxx cdouf cnpw6 cpa9v cv5x1 ck41d c2xfw c2mkf cpous cxj2n">
-                  <div class="c509s">
-                    <div
-                      class="cab6c cynyd cdol0 cy259 cwsa9 c9x43 c2xfw cnbst cxbhj cpous cdrow csv9q cwoyc cgwj6 c4a2s c61hs cfonf">
-                      <img class="c0vjw" src="./images/logo-01.svg" width="32" height="32" alt="Logo 01" />
-                    </div>
-                  </div>
-                </div>
-                <!-- Panel #1 -->
-                <div id="tabpanel-1" class="cxbhj cdrow cg0u5 c07cc c4a2s" role="tabpanel" tabindex="0"
-                  aria-labelledby="tab-1" x-show="activeTab === 1" x-transition:enter="cwcpl crmdp cuwe0 c3mi3 cgn13"
-                  x-transition:enter-start="cio1t cj4vu" x-transition:enter-end="c8bnb ch07w"
-                  x-transition:leave="cwcpl crmdp coclo c3mi3 cxj2n" x-transition:leave-start="c8bnb ch07w"
-                  x-transition:leave-end="cio1t ce1bf">
-                  <div class="c1fmc cxj2n">
-                    <div class="cv954">
-                      <div
-                        class="cab6c cynyd cdol0 cy259 cwsa9 c9x43 c2xfw cnbst cxbhj cpous cdrow csv9q cwoyc cgwj6 c4a2s cc61o ct4tf">
-                        <img class="c0vjw" src="./images/logo-02.svg" width="23" height="22" alt="Logo 02" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="czing cxj2n">
-                    <div class="c2kdw">
-                      <div
-                        class="cab6c cynyd cdol0 cy259 cwsa9 c9x43 c2xfw cnbst cxbhj cpous cdrow csv9q cwoyc cgwj6 c4a2s cc61o ct4tf">
-                        <img class="c0vjw" src="./images/logo-03.svg" width="22" height="22" alt="Logo 03" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cgj8i cao07 cxj2n">
-                    <div class="cb1mz">
-                      <div
-                        class="cab6c cynyd cdol0 cy259 cwsa9 c9x43 c2xfw cnbst cxbhj cpous cdrow csv9q cwoyc cgwj6 c4a2s ci2lm cju07">
-                        <img class="c0vjw" src="./images/logo-04.svg" width="24" height="22" alt="Logo 04" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cao07 cd2xo cxj2n">
-                    <div class="cf2in">
-                      <div
-                        class="cab6c cynyd cdol0 cy259 cwsa9 c9x43 c2xfw cnbst cxbhj cpous cdrow csv9q cwoyc cgwj6 c4a2s ci2lm cju07">
-                        <img class="c0vjw" src="./images/logo-05.svg" width="25" height="25" alt="Logo 05" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cd2xo cufgj cxj2n">
-                    <div class="cdnce">
-                      <div
-                        class="cab6c cynyd cdol0 cy259 cwsa9 c9x43 c2xfw cnbst cxbhj cpous cdrow csv9q cwoyc cgwj6 c4a2s ci2lm cju07">
-                        <img class="c0vjw" src="./images/logo-06.svg" width="20" height="18" alt="Logo 06" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cgj8i cufgj cxj2n">
-                    <div class="cimwk">
-                      <div
-                        class="cab6c cynyd cdol0 cy259 cwsa9 c9x43 c2xfw cnbst cxbhj cpous cdrow csv9q cwoyc cgwj6 c4a2s ci2lm cju07">
-                        <img class="c0vjw" src="./images/logo-07.svg" width="25" height="25" alt="Logo 07" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="c3kcn co8qp cxj2n">
-                    <div class="cdnce">
-                      <div class="cf84e cxbhj cdrow csv9q cwoyc cgwj6 c3ytk c4a2s c0rh9 cr97w">
-                        <img class="c0vjw" src="./images/logo-08.svg" width="20" height="20" alt="Logo 08" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="c782f co8qp cxj2n">
-                    <div class="ckf6a">
-                      <div class="cf84e cxbhj cdrow csv9q cwoyc cgwj6 c3ytk c4a2s c0rh9 cr97w">
-                        <img class="c0vjw" src="./images/logo-09.svg" width="21" height="13" alt="Logo 09" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Panel #2 -->
-                <div id="tabpanel-2" class="cxbhj cdrow cg0u5 c07cc c4a2s" role="tabpanel" tabindex="0"
-                  aria-labelledby="tab-2" x-show="activeTab === 2" x-transition:enter="cwcpl crmdp cuwe0 c3mi3 cgn13"
-                  x-transition:enter-start="cio1t cj4vu" x-transition:enter-end="c8bnb ch07w"
-                  x-transition:leave="cwcpl crmdp coclo c3mi3 cxj2n" x-transition:leave-start="c8bnb ch07w"
-                  x-transition:leave-end="cio1t ce1bf">
-                  <div class="c1fmc cxj2n">
-                    <div class="cv954">
-                      <div
-                        class="cab6c cynyd cdol0 cy259 cwsa9 c9x43 c2xfw cnbst cxbhj cpous cdrow csv9q cwoyc cgwj6 c4a2s cc61o ct4tf">
-                        <img class="c0vjw" src="./images/logo-03.svg" width="23" height="22" alt="Logo 03" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="czing cxj2n">
-                    <div class="c2kdw">
-                      <div
-                        class="cab6c cynyd cdol0 cy259 cwsa9 c9x43 c2xfw cnbst cxbhj cpous cdrow csv9q cwoyc cgwj6 c4a2s cc61o ct4tf">
-                        <img class="c0vjw" src="./images/logo-04.svg" width="22" height="22" alt="Logo 04" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cgj8i cao07 cxj2n">
-                    <div class="cb1mz">
-                      <div
-                        class="cab6c cynyd cdol0 cy259 cwsa9 c9x43 c2xfw cnbst cxbhj cpous cdrow csv9q cwoyc cgwj6 c4a2s ci2lm cju07">
-                        <img class="c0vjw" src="./images/logo-05.svg" width="24" height="22" alt="Logo 05" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cao07 cd2xo cxj2n">
-                    <div class="cf2in">
-                      <div
-                        class="cab6c cynyd cdol0 cy259 cwsa9 c9x43 c2xfw cnbst cxbhj cpous cdrow csv9q cwoyc cgwj6 c4a2s ci2lm cju07">
-                        <img class="c0vjw" src="./images/logo-02.svg" width="25" height="25" alt="Logo 02" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cd2xo cufgj cxj2n">
-                    <div class="cdnce">
-                      <div
-                        class="cab6c cynyd cdol0 cy259 cwsa9 c9x43 c2xfw cnbst cxbhj cpous cdrow csv9q cwoyc cgwj6 c4a2s ci2lm cju07">
-                        <img class="c0vjw" src="./images/logo-07.svg" width="20" height="18" alt="Logo 07" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cgj8i cufgj cxj2n">
-                    <div class="cimwk">
-                      <div
-                        class="cab6c cynyd cdol0 cy259 cwsa9 c9x43 c2xfw cnbst cxbhj cpous cdrow csv9q cwoyc cgwj6 c4a2s ci2lm cju07">
-                        <img class="c0vjw" src="./images/logo-06.svg" width="25" height="25" alt="Logo 06" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="c3kcn co8qp cxj2n">
-                    <div class="cdnce">
-                      <div class="cf84e cxbhj cdrow csv9q cwoyc cgwj6 c3ytk c4a2s c0rh9 cr97w">
-                        <img class="c0vjw" src="./images/logo-09.svg" width="20" height="20" alt="Logo 09" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="c782f co8qp cxj2n">
-                    <div class="ckf6a">
-                      <div class="cf84e cxbhj cdrow csv9q cwoyc cgwj6 c3ytk c4a2s c0rh9 cr97w">
-                        <img class="c0vjw" src="./images/logo-08.svg" width="21" height="13" alt="Logo 08" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Panel #3 -->
-                <div id="tabpanel-3" class="cxbhj cdrow cg0u5 c07cc c4a2s" role="tabpanel" tabindex="0"
-                  aria-labelledby="tab-3" x-show="activeTab === 3" x-transition:enter="cwcpl crmdp cuwe0 c3mi3 cgn13"
-                  x-transition:enter-start="cio1t cj4vu" x-transition:enter-end="c8bnb ch07w"
-                  x-transition:leave="cwcpl crmdp coclo c3mi3 cxj2n" x-transition:leave-start="c8bnb ch07w"
-                  x-transition:leave-end="cio1t ce1bf">
-                  <div class="c1fmc cxj2n">
-                    <div class="cv954">
-                      <div
-                        class="cab6c cynyd cdol0 cy259 cwsa9 c9x43 c2xfw cnbst cxbhj cpous cdrow csv9q cwoyc cgwj6 c4a2s cc61o ct4tf">
-                        <img class="c0vjw" src="./images/logo-02.svg" width="23" height="22" alt="Logo 02" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="czing cxj2n">
-                    <div class="c2kdw">
-                      <div
-                        class="cab6c cynyd cdol0 cy259 cwsa9 c9x43 c2xfw cnbst cxbhj cpous cdrow csv9q cwoyc cgwj6 c4a2s cc61o ct4tf">
-                        <img class="c0vjw" src="./images/logo-03.svg" width="22" height="22" alt="Logo 03" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cgj8i cao07 cxj2n">
-                    <div class="cb1mz">
-                      <div
-                        class="cab6c cynyd cdol0 cy259 cwsa9 c9x43 c2xfw cnbst cxbhj cpous cdrow csv9q cwoyc cgwj6 c4a2s ci2lm cju07">
-                        <img class="c0vjw" src="./images/logo-04.svg" width="24" height="22" alt="Logo 04" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cao07 cd2xo cxj2n">
-                    <div class="cf2in">
-                      <div
-                        class="cab6c cynyd cdol0 cy259 cwsa9 c9x43 c2xfw cnbst cxbhj cpous cdrow csv9q cwoyc cgwj6 c4a2s ci2lm cju07">
-                        <img class="c0vjw" src="./images/logo-05.svg" width="25" height="25" alt="Logo 05" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cd2xo cufgj cxj2n">
-                    <div class="cdnce">
-                      <div
-                        class="cab6c cynyd cdol0 cy259 cwsa9 c9x43 c2xfw cnbst cxbhj cpous cdrow csv9q cwoyc cgwj6 c4a2s ci2lm cju07">
-                        <img class="c0vjw" src="./images/logo-06.svg" width="20" height="18" alt="Logo 06" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cgj8i cufgj cxj2n">
-                    <div class="cimwk">
-                      <div
-                        class="cab6c cynyd cdol0 cy259 cwsa9 c9x43 c2xfw cnbst cxbhj cpous cdrow csv9q cwoyc cgwj6 c4a2s ci2lm cju07">
-                        <img class="c0vjw" src="./images/logo-07.svg" width="25" height="25" alt="Logo 07" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="c3kcn co8qp cxj2n">
-                    <div class="cdnce">
-                      <div class="cf84e cxbhj cdrow csv9q cwoyc cgwj6 c3ytk c4a2s c0rh9 cr97w">
-                        <img class="c0vjw" src="./images/logo-08.svg" width="20" height="20" alt="Logo 08" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="c782f co8qp cxj2n">
-                    <div class="ckf6a">
-                      <div class="cf84e cxbhj cdrow csv9q cwoyc cgwj6 c3ytk c4a2s c0rh9 cr97w">
-                        <img class="c0vjw" src="./images/logo-09.svg" width="21" height="13" alt="Logo 09" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- Panel #4 -->
-                <div id="tabpanel-4" class="cxbhj cdrow cg0u5 c07cc c4a2s" role="tabpanel" tabindex="0"
-                  aria-labelledby="tab-4" x-show="activeTab === 4" x-transition:enter="cwcpl crmdp cuwe0 c3mi3 cgn13"
-                  x-transition:enter-start="cio1t cj4vu" x-transition:enter-end="c8bnb ch07w"
-                  x-transition:leave="cwcpl crmdp coclo c3mi3 cxj2n" x-transition:leave-start="c8bnb ch07w"
-                  x-transition:leave-end="cio1t ce1bf">
-                  <div class="c1fmc cxj2n">
-                    <div class="cv954">
-                      <div
-                        class="cab6c cynyd cdol0 cy259 cwsa9 c9x43 c2xfw cnbst cxbhj cpous cdrow csv9q cwoyc cgwj6 c4a2s cc61o ct4tf">
-                        <img class="c0vjw" src="./images/logo-03.svg" width="23" height="22" alt="Logo 03" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="czing cxj2n">
-                    <div class="c2kdw">
-                      <div
-                        class="cab6c cynyd cdol0 cy259 cwsa9 c9x43 c2xfw cnbst cxbhj cpous cdrow csv9q cwoyc cgwj6 c4a2s cc61o ct4tf">
-                        <img class="c0vjw" src="./images/logo-04.svg" width="22" height="22" alt="Logo 04" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cgj8i cao07 cxj2n">
-                    <div class="cb1mz">
-                      <div
-                        class="cab6c cynyd cdol0 cy259 cwsa9 c9x43 c2xfw cnbst cxbhj cpous cdrow csv9q cwoyc cgwj6 c4a2s ci2lm cju07">
-                        <img class="c0vjw" src="./images/logo-05.svg" width="24" height="22" alt="Logo 05" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cao07 cd2xo cxj2n">
-                    <div class="cf2in">
-                      <div
-                        class="cab6c cynyd cdol0 cy259 cwsa9 c9x43 c2xfw cnbst cxbhj cpous cdrow csv9q cwoyc cgwj6 c4a2s ci2lm cju07">
-                        <img class="c0vjw" src="./images/logo-02.svg" width="25" height="25" alt="Logo 02" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cd2xo cufgj cxj2n">
-                    <div class="cdnce">
-                      <div
-                        class="cab6c cynyd cdol0 cy259 cwsa9 c9x43 c2xfw cnbst cxbhj cpous cdrow csv9q cwoyc cgwj6 c4a2s ci2lm cju07">
-                        <img class="c0vjw" src="./images/logo-07.svg" width="20" height="18" alt="Logo 07" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cgj8i cufgj cxj2n">
-                    <div class="cimwk">
-                      <div
-                        class="cab6c cynyd cdol0 cy259 cwsa9 c9x43 c2xfw cnbst cxbhj cpous cdrow csv9q cwoyc cgwj6 c4a2s ci2lm cju07">
-                        <img class="c0vjw" src="./images/logo-06.svg" width="25" height="25" alt="Logo 06" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="c3kcn co8qp cxj2n">
-                    <div class="cdnce">
-                      <div class="cf84e cxbhj cdrow csv9q cwoyc cgwj6 c3ytk c4a2s c0rh9 cr97w">
-                        <img class="c0vjw" src="./images/logo-09.svg" width="20" height="20" alt="Logo 09" />
-                      </div>
-                    </div>
-                  </div>
-                  <div class="c782f co8qp cxj2n">
-                    <div class="ckf6a">
-                      <div class="cf84e cxbhj cdrow csv9q cwoyc cgwj6 c3ytk c4a2s c0rh9 cr97w">
-                        <img class="c0vjw" src="./images/logo-08.svg" width="21" height="13" alt="Logo 08" />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- End: Tabs component -->
-          </div>
-        </div>
-      </section>
-
-      <!-- Large testimonial -->
-      <section>
-        <div class="cf2y5 cx5hs cqcwp cn7jq">
-          <div class="ck5d4 c1gwx">
-            <div class="cczaz cfrd0">
-              <div class="cdrak c0vjw">
-                <svg class="cxj2n cmb90 covyf ci34p" width="40" height="49" viewBox="0 0 40 49" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M22.7976 -0.000136375L39.9352 23.4746L33.4178 31.7234L13.7686 11.4275L22.7976 -0.000136375ZM9.34947 17.0206L26.4871 40.4953L19.9697 48.7441L0.320491 28.4482L9.34947 17.0206Z"
-                    fill="#D1D5DB"></path>
-                </svg>
-                <img class="csv9q" src="./images/large-testimonial.jpg" width="48" height="48"
-                  alt="Large testimonial" />
-              </div>
-              <p class="ctwbb cep6s ci34f">
-                “Simple has simplified my life in more ways than one. From
-                managing my sites to
-                <em class="cn0bb cpiio">keeping track of tasks</em>, it's
-                become my go-to tool for everything.”
-              </p>
-              <div class="cn0bb cc7ls cnrm4">
-                <span class="ce0zw">Mary Sullivan</span>
-                <span class="chql7">/</span>
-                <a class="crnka" href="#0">CTO at Microsoft</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Features #2 -->
-      <section class="c0vjw">
-        <div class="c38j2 cx9qa c82xa cxj2n cvd4p ci34p" aria-hidden="true">
-          <div class="cjxwv cwgyo cjgwc cmxwm csv9q cx349 co8qp c5uon czfz1"></div>
-        </div>
-        <div class="cxbfd cx5hs cqcwp cn7jq">
-          <div class="ck5d4 c1gwx">
-            <!-- Section header -->
-            <div class="cczaz c441s cbjga cqcwp cxkvs">
-              <h2 class="cmrh3 cep6s c0clt cnv5k">
-                Identify value much faster
-              </h2>
-              <p class="ce0zw cprne">
-                Use powerful yet familiar tools to create your ultimate
-                website design. Import your files everywhere, including Figma.
-              </p>
-            </div>
-
-            <!-- Illustration -->
-            <div class="cq6pt cxbhj ckh15 c0vjw cqcwp c07cc c1ncu codvp c4a2s" data-aos="zoom-y-out">
-              <div class="cxj2n cvros ci34p" aria-hidden="true">
-                <div class="cjxwv cjgwc csv9q cyqet c0c31 c5uon czfz1"></div>
-              </div>
-              <div class="ctgt9 cxs6k coclo ciff0 chf7m cwcpl co6sa cncjq c07cc c0dhx c1fmi">
-                <div class="ch676 cvvf7 cjpz9 cgijw c7uuq c5j5d cu52c cdrow c0vjw c60f3 c4a2s">
-                  <span class="czz77 cc7ls cnbyk">AI Project</span>
-                </div>
-                <div class="cjxwv c862v cj4iq cn0bb coclo cwcpl cwzxh cnrm4 cjin1">
-                  <span class="cuxmm ctwfu">npm login</span>
-                  <span class="cvl7v">--registry=https://npm.pkg.github.com</span><br />
-                  <span class="cpik1">--scope=@phanatic</span>
-                  <span class="cor66">Successfully logged-in.</span><br /><br />
-                  <span class="cfsl6 ctwfu">npm publish</span><br />
-                  <span class="cgmt8">Package published.</span>
-                </div>
-              </div>
-              <div class="cxj2n cj9zb">
-                <div class="cq9di cxiaq cc8v2 cffni coclo cw2au cwcpl">
-                  <img class="c5l9j" src="./images/features-02-overlay-01.png" width="500" height="72"
-                    alt="Overlay 01" />
-                </div>
-                <div class="delay-50 cq9di cxiaq cc8v2 c5a5e cffni coclo cwcpl">
-                  <img src="./images/features-02-overlay-02.png" width="500" height="40" alt="Overlay 02" />
-                </div>
-                <div class="cq9di cxiaq cc8v2 cffni coclo cwcpl cjjqo">
-                  <img class="co6sa" src="./images/features-02-overlay-03.png" width="500" height="91"
-                    alt="Overlay 03" />
-                </div>
-              </div>
-            </div>
-
-            <!-- Grid -->
-            <div
-              class="overflow-hidden cl3v7 cw82x cpdf8 ccfly c0rmx ct4ae cow1n c5bsq cai21 c0crf cz0hi cck0n csreq cf8cj chf5m c9k3o">
-              <article>
-                <h3 class="cdrow cc7ls ciy3m cd57x c4a2s">
-                  <svg class="c4ow8" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
-                    <path
-                      d="m15.447 6.605-.673-.336a6.973 6.973 0 0 0-.761-1.834l.238-.715a.999.999 0 0 0-.242-1.023l-.707-.707a.995.995 0 0 0-1.023-.242l-.715.238a6.96 6.96 0 0 0-1.834-.761L9.394.552A1 1 0 0 0 8.5-.001h-1c-.379 0-.725.214-.895.553l-.336.673a6.973 6.973 0 0 0-1.834.761l-.715-.238a.997.997 0 0 0-1.023.242l-.707.707a1.001 1.001 0 0 0-.242 1.023l.238.715a6.959 6.959 0 0 0-.761 1.834l-.673.336a1 1 0 0 0-.553.895v1c0 .379.214.725.553.895l.673.336c.167.653.425 1.268.761 1.834l-.238.715a.999.999 0 0 0 .242 1.023l.707.707a.997.997 0 0 0 1.023.242l.715-.238a6.959 6.959 0 0 0 1.834.761l.336.673a1 1 0 0 0 .895.553h1c.379 0 .725-.214.895-.553l.336-.673a6.973 6.973 0 0 0 1.834-.761l.715.238a1.001 1.001 0 0 0 1.023-.242l.707-.707c.268-.268.361-.664.242-1.023l-.238-.715a6.959 6.959 0 0 0 .761-1.834l.673-.336A1 1 0 0 0 16 8.5v-1c0-.379-.214-.725-.553-.895ZM8 13a5 5 0 1 1 .001-10.001 5 5 0 0 1 0 10.001Z">
-                    </path>
-                  </svg>
-                  <span>Optimization</span>
-                </h3>
-                <p class="cfl62 ce0zw">
-                  Collect essential insights about how visitors are using your
-                  site with in-depth page view metrics like pages, referring
-                  sites, and more.
-                </p>
-              </article>
-              <article>
-                <h3 class="cdrow cc7ls ciy3m cd57x c4a2s">
-                  <svg class="c4ow8" xmlns="http://www.w3.org/2000/svg" width="16" height="12">
-                    <path
-                      d="M2 0a1 1 0 0 0 0 2h6a1 1 0 0 0 0-2H2Zm0 7a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V7Zm1-3a3 3 0 0 0-3 3v2a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H3Z">
-                    </path>
-                  </svg>
-                  <span>Cookie Banner</span>
-                </h3>
-                <p class="cfl62 ce0zw">
-                  Collect essential insights about how visitors are using your
-                  site with in-depth page view metrics like pages, referring
-                  sites, and more.
-                </p>
-              </article>
-              <article>
-                <h3 class="cdrow cc7ls ciy3m cd57x c4a2s">
-                  <svg class="c4ow8" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
-                    <path
-                      d="M14.75 2.5a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5Zm0 13.5a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5ZM2.5 14.75a1.25 1.25 0 1 1-2.5 0 1.25 1.25 0 0 1 2.5 0ZM1.25 2.5a1.25 1.25 0 1 0 0-2.5 1.25 1.25 0 0 0 0 2.5ZM4 8a4 4 0 1 1 8 0 4 4 0 0 1-8 0Zm4-6a6 6 0 1 0 0 12A6 6 0 0 0 8 2Z">
-                    </path>
-                  </svg>
-                  <span>Custom Domain</span>
-                </h3>
-                <p class="cfl62 ce0zw">
-                  Collect essential insights about how visitors are using your
-                  site with in-depth page view metrics like pages, referring
-                  sites, and more.
-                </p>
-              </article>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Testimonials -->
-      <section class="carbw clrg9 cn8c0 cuhzn c2xfw cnbst cvbjy c0vjw">
-        <div class="ctw0e covvi">
-          <div class="cxbfd cx5hs cqcwp cn7jq">
-            <div class="cczaz c441s cqcwp">
-              <h2 class="cmrh3 cep6s c0clt">Top startups love Simple</h2>
-            </div>
-          </div>
-          <div class="cappb cxbhj c0vjw cqcwp c4a2s">
-            <div class="ckmem c5dv1 cxj2n ci34p" aria-hidden="true">
-              <div class="cjxwv cwgyo cjgwc cmxwm csv9q cx349 cga69 c5uon czfz1"></div>
-            </div>
-            <div class="ci9en cxj2n ci34p" aria-hidden="true">
-              <div class="cjxwv cjgwc csv9q cyqet co8qp c5uon czfz1"></div>
-            </div>
-            <div class="cxj2n cvros ci34p" aria-hidden="true">
-              <div class="cjxwv ciq4z cynbf csv9q c1r3z cozgt ca62l"></div>
-            </div>
-            <!-- Row -->
-            <div x-data="{}" x-init="$nextTick(() => {
-                                let ul = $refs.testimonials;
-                                ul.insertAdjacentHTML('afterend', ul.outerHTML);
-                                ul.nextSibling.setAttribute('aria-hidden', 'true');
-                            })" class="c641p cdrak cn8zx ck5d4 c07cc c1gwx codvp">
-              <div x-ref="testimonials" class="cmpl0 cnboj cx5ec cbrx1 cxbhj ctoov c4a2s">
-                <!-- Item #1 -->
-                <article
-                  class="csoaf cdouf cnpw6 carbw cynyd cv5x1 cy259 c8782 ceifv c2xfw cnbst c3pm7 cpous cmk0x c73aj coclo cboar ciff0 cwoyc c0vjw cl8ef cg0u5 c4a2s cgafo">
-                  <header class="cdrow cnzyi cnv5k c4a2s">
-                    <img class="csv9q cfufg" src="./images/testimonial-01.jpg" width="44" height="44"
-                      alt="Testimonial 01" />
-                    <div>
-                      <div class="cep6s">Peter Lowe</div>
-                      <div>
-                        <a class="c1iai ciqaw cc7ls cwcpl cnrm4" href="#0">@peterlowex</a>
-                      </div>
-                    </div>
-                  </header>
-                  <div class="ce0zw cnrm4 c7fsb">
-                    As a founder, having a visually appealing and
-                    user-friendly website is essential. This tool not only
-                    helped me achieve that but also improved my site's
-                    performance and SEO.
-                  </div>
-                  <footer class="ce0zw cdrow cgvdk ce61f c4a2s">
-                    <svg class="cturl" xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none">
-                      <path fill-rule="evenodd"
-                        d="M16.928 14.054H11.99L8.125 9.162l-4.427 4.892H1.243L6.98 7.712.928.054H5.99L9.487 4.53 13.53.054h2.454l-5.358 5.932 6.303 8.068Zm-4.26-1.421h1.36L5.251 1.4H3.793l8.875 11.232Z">
-                      </path>
-                    </svg>
-                    <div class="cipq7">May 19, 2027</div>
-                  </footer>
-                </article>
-                <!-- Item #2 -->
-                <article
-                  class="csoaf cdouf cnpw6 carbw cynyd cv5x1 cy259 c8782 ceifv c2xfw cnbst c3pm7 cpous cmk0x c73aj coclo cboar ciff0 cwoyc c0vjw cl8ef cg0u5 c4a2s cgafo">
-                  <header class="cdrow cnzyi cnv5k c4a2s">
-                    <img class="csv9q cfufg" src="./images/testimonial-02.jpg" width="44" height="44"
-                      alt="Testimonial 02" />
-                    <div>
-                      <div class="cep6s">Rodri Alba</div>
-                      <div>
-                        <a class="c1iai ciqaw cc7ls cwcpl cnrm4" href="#0">@rodri_spn</a>
-                      </div>
-                    </div>
-                  </header>
-                  <div class="ce0zw cnrm4 c7fsb">
-                    Simple has revolutionized the way I manage my work. Its
-                    intuitive interface and seamless functionality make
-                    staying organized effortless. I can't imagine my life
-                    without it.
-                  </div>
-                  <footer class="ce0zw cdrow cgvdk ce61f c4a2s">
-                    <svg class="cturl" xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none">
-                      <path fill-rule="evenodd"
-                        d="M16.928 14.054H11.99L8.125 9.162l-4.427 4.892H1.243L6.98 7.712.928.054H5.99L9.487 4.53 13.53.054h2.454l-5.358 5.932 6.303 8.068Zm-4.26-1.421h1.36L5.251 1.4H3.793l8.875 11.232Z">
-                      </path>
-                    </svg>
-                    <div class="cipq7">Apr 12, 2027</div>
-                  </footer>
-                </article>
-                <!-- Item #3 -->
-                <article
-                  class="csoaf cdouf cnpw6 carbw cynyd cv5x1 cy259 c8782 ceifv c2xfw cnbst c3pm7 cpous cmk0x c73aj coclo cboar ciff0 cwoyc c0vjw cl8ef cg0u5 c4a2s cgafo">
-                  <header class="cdrow cnzyi cnv5k c4a2s">
-                    <img class="csv9q cfufg" src="./images/testimonial-03.jpg" width="44" height="44"
-                      alt="Testimonial 03" />
-                    <div>
-                      <div class="cep6s">Michele Lex</div>
-                      <div>
-                        <a class="c1iai ciqaw cc7ls cwcpl cnrm4" href="#0">@MikyBrown</a>
-                      </div>
-                    </div>
-                  </header>
-                  <div class="ce0zw cnrm4 c7fsb">
-                    I've tried several website builders before, but none were
-                    as user-friendly and versatile as this one. From design to
-                    functionality, it exceeded my expectations!
-                  </div>
-                  <footer class="ce0zw cdrow cgvdk ce61f c4a2s">
-                    <svg class="cturl" xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none">
-                      <path fill-rule="evenodd"
-                        d="M16.928 14.054H11.99L8.125 9.162l-4.427 4.892H1.243L6.98 7.712.928.054H5.99L9.487 4.53 13.53.054h2.454l-5.358 5.932 6.303 8.068Zm-4.26-1.421h1.36L5.251 1.4H3.793l8.875 11.232Z">
-                      </path>
-                    </svg>
-                    <div class="cipq7">Mar 04, 2027</div>
-                  </footer>
-                </article>
-                <!-- Item #4 -->
-                <article
-                  class="csoaf cdouf cnpw6 carbw cynyd cv5x1 cy259 c8782 ceifv c2xfw cnbst c3pm7 cpous cmk0x c73aj coclo cboar ciff0 cwoyc c0vjw cl8ef cg0u5 c4a2s cgafo">
-                  <header class="cdrow cnzyi cnv5k c4a2s">
-                    <img class="csv9q cfufg" src="./images/testimonial-04.jpg" width="44" height="44"
-                      alt="Testimonial 04" />
-                    <div>
-                      <div class="cep6s">Michael Ross</div>
-                      <div>
-                        <a class="c1iai ciqaw cc7ls cwcpl cnrm4" href="#0">@michjack</a>
-                      </div>
-                    </div>
-                  </header>
-                  <div class="ce0zw cnrm4 c7fsb">
-                    Simple lives up to its name in every way. It's incredibly
-                    easy to use yet powerful enough to handle all my tasks
-                    effortlessly. It's become an essential part of my daily
-                    routine.
-                  </div>
-                  <footer class="ce0zw cdrow cgvdk ce61f c4a2s">
-                    <svg class="cturl" xmlns="http://www.w3.org/2000/svg" width="17" height="15" fill="none">
-                      <path fill-rule="evenodd"
-                        d="M16.928 14.054H11.99L8.125 9.162l-4.427 4.892H1.243L6.98 7.712.928.054H5.99L9.487 4.53 13.53.054h2.454l-5.358 5.932 6.303 8.068Zm-4.26-1.421h1.36L5.251 1.4H3.793l8.875 11.232Z">
-                      </path>
-                    </svg>
-                    <div class="cipq7">Jan 15, 2027</div>
-                  </footer>
-                </article>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- CTA -->
-      <section>
-        <div class="cxbfd cx5hs cqcwp cn7jq">
-          <div class="overflow-hidden carbw cx1xp c2bmm c2xfw cnbst cvbjy ciff0 cczaz cncjq c0vjw"
-            data-aos="zoom-y-out">
-            <!-- Glow -->
-            <div class="c38j2 cydfs c82xa cxj2n cvros ci34p" aria-hidden="true">
-              <div class="cjxwv ciq4z ci2i6 csv9q cmwh7 cjw6g cozgt"></div>
-            </div>
-            <!-- Stripes illustration -->
-            <div class="cc8v2 c38j2 c82xa c3mi3 cxj2n cvd4p ci34p" aria-hidden="true">
-              <img class="c13of" src="./images/stripes-dark.svg" width="768" height="432" alt="Stripes" />
-            </div>
-            <div class="c9u6s ck5d4 c1gwx cn7jq">
-              <h2 class="cy4m1 ctwfu cmrh3 cep6s cdffh chf5m c0clt cruyu">
-                Create your next project with Simple
-              </h2>
-              <div class="c0ix1 citj5 c6dyc cdj6q cqcwp">
-                <a class="cdnfp cnbzd cnky1 cfdqu cw1xo c8tf8 cnbyk c8slg cg07b c07cc cwq93 codvp cnv5k cayql"
-                  href="#0">
-                  <span class="cdrow cdrak c0vjw">
-                    Start Free Trial
-                    <span class="cvsu8 ceifv ck2l5 ck05u cr1y2">-&gt;</span>
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
     </main>
 
     <!-- Site footer -->
@@ -1918,75 +1291,69 @@
             <div>
               <!-- Logo -->
               <a class="cdrak" href="index.html" aria-label="Cruip">
-                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28">
-                  <path class="c4ow8" fill-rule="evenodd"
-                    d="M15.052 0c6.914.513 12.434 6.033 12.947 12.947h-5.015a7.932 7.932 0 0 1-7.932-7.932V0Zm-2.105 22.985V28C6.033 27.487.513 21.967 0 15.053h5.015a7.932 7.932 0 0 1 7.932 7.932Z"
-                    clip-rule="evenodd"></path>
-                  <path class="cfix0" fill-rule="evenodd"
-                    d="M0 12.947C.513 6.033 6.033.513 12.947 0v5.015a7.932 7.932 0 0 1-7.932 7.932H0Zm22.984 2.106h5.015C27.486 21.967 21.966 27.487 15.052 28v-5.015a7.932 7.932 0 0 1 7.932-7.932Z"
-                    clip-rule="evenodd"></path>
-                </svg>
+                <img src="./images/ATENEA-logo.svg" width="120" height="120" alt="Cruip" />
               </a>
             </div>
-            <div class="c34vk cnrm4">© Cruip.com - All rights reserved.</div>
+            <div class="c34vk cnrm4">ATENEA</div>
+            <div class="c34vk cnrm4">Miembro de Grupo Cardinales</div>
           </div>
 
           <!-- 2nd block -->
           <div class="c6dpm cc16l cpgwb cih6g">
-            <h3 class="cc7ls cnrm4">Product</h3>
+            <h3 class="cc7ls cnrm4">Producto</h3>
             <ul class="cih6g cnrm4">
               <li>
-                <a class="cgq07 c34vk cwcpl" href="#0">Features</a>
+                <a class="cgq07 c34vk cwcpl" href="#0">Lorem Ipsum</a>
               </li>
               <li>
-                <a class="cgq07 c34vk cwcpl" href="#0">Integrations</a>
+                <a class="cgq07 c34vk cwcpl" href="#0">Lorem Ipsum</a>
               </li>
               <li>
-                <a class="cgq07 c34vk cwcpl" href="#0">Pricing &amp; Plans</a>
+                <a class="cgq07 c34vk cwcpl" href="#0">Lorem Ipsum</a>
               </li>
               <li>
-                <a class="cgq07 c34vk cwcpl" href="#0">Changelog</a>
+                <a class="cgq07 c34vk cwcpl" href="#0">Lorem Ipsum</a>
               </li>
               <li>
-                <a class="cgq07 c34vk cwcpl" href="#0">Our method</a>
+                <a class="cgq07 c34vk cwcpl" href="#0">Lorem Ipsum</a>
               </li>
             </ul>
           </div>
 
           <!-- 3rd block -->
           <div class="c6dpm cc16l cpgwb cih6g">
-            <h3 class="cc7ls cnrm4">Company</h3>
+            <h3 class="cc7ls cnrm4">Compañia</h3>
             <ul class="cih6g cnrm4">
               <li>
-                <a class="cgq07 c34vk cwcpl" href="#0">About us</a>
+                <a class="cgq07 c34vk cwcpl" href="#0">Lorem Ipsum</a>
               </li>
               <li>
-                <a class="cgq07 c34vk cwcpl" href="#0">Diversity &amp; Inclusion</a>
+                <a class="cgq07 c34vk cwcpl" href="#0">Lorem Ipsum</a>
               </li>
               <li>
-                <a class="cgq07 c34vk cwcpl" href="#0">Blog</a>
+                <a class="cgq07 c34vk cwcpl" href="#0">Lorem Ipsum</a>
               </li>
               <li>
-                <a class="cgq07 c34vk cwcpl" href="#0">Careers</a>
+                <a class="cgq07 c34vk cwcpl" href="#0">Lorem Ipsum</a>
               </li>
               <li>
-                <a class="cgq07 c34vk cwcpl" href="#0">Financial statements</a>
+                <a class="cgq07 c34vk cwcpl" href="#0">Lorem Ipsum</a>
               </li>
             </ul>
           </div>
 
           <!-- 4th block -->
           <div class="c6dpm cc16l cpgwb cih6g">
-            <h3 class="cc7ls cnrm4">Resources</h3>
+            <h3 class="cc7ls cnrm4">Recursos</h3>
             <ul class="cih6g cnrm4">
               <li>
-                <a class="cgq07 c34vk cwcpl" href="#0">Community</a>
+                <a class="cgq07 c34vk cwcpl" href="#0">Lorem Ipsum</a>
               </li>
               <li>
-                <a class="cgq07 c34vk cwcpl" href="#0">Terms of service</a>
+                <a class="cgq07 c34vk cwcpl" href="#0">Lorem Ipsum</a>
               </li>
               <li>
-                <a class="cgq07 c34vk cwcpl" href="#0">Report a vulnerability</a>
+                <a class="cgq07 c34vk cwcpl" href="#0">Lorem Ipsum</a>
               </li>
             </ul>
           </div>
@@ -2048,72 +1415,72 @@
   <script src="./js/main.js"></script>
 
   <script>
-    console.log("%cImportant!", "color: blue; font-size: x-large");
+    console.log("%cATENEA", "color: blue; font-size: x-large");
     console.log(
-      "%cThe page you are viewing is for demo purposes only. CSS and HTML have been minified and class names have been shortened to improve the page load time. Download our templates from https://cruip.com/ 😉",
+      "%cHola desde GRUPO CARDINALES :)",
       "font-size: large"
     );
   </script>
   <script>
     const pagesList = [
       {
-        name: "Home",
-        url: "https://preview.cruip.com/simple/index.html",
+        name: "Inicio",
+        url: "#",
         active: true,
       },
       {
-        name: "Pricing",
-        url: "https://preview.cruip.com/simple/pricing.html",
+        name: "Servicios",
+        url: "#",
         active: false,
       },
       {
-        name: "Customers",
-        url: "https://preview.cruip.com/simple/customers.html",
+        name: "Plataformas",
+        url: "#",
         active: false,
       },
       {
-        name: "Blog",
-        url: "https://preview.cruip.com/simple/blog.html",
+        name: "Precios",
+        url: "#",
         active: false,
       },
       {
-        name: "Blog Post",
-        url: "https://preview.cruip.com/simple/blog-post.html",
+        name: "Promociones",
+        url: "#",
         active: false,
       },
       {
-        name: "Documentation",
-        url: "https://preview.cruip.com/simple/documentation.html",
+        name: "Documentación",
+        url: "#",
         active: false,
       },
       {
-        name: "Support center",
-        url: "https://preview.cruip.com/simple/support.html",
+        name: "Centro de soporte",
+        url: "#",
         active: false,
       },
       {
         name: "Apps",
-        url: "https://preview.cruip.com/simple/apps.html",
+        url: "#",
         active: false,
       },
       {
-        name: "Sign in",
-        url: "https://preview.cruip.com/simple/signin.html",
+        name: "Registro",
+        url: "#",
         active: false,
       },
       {
-        name: "Sign up",
-        url: "https://preview.cruip.com/simple/signup.html",
+        name: "Inicio de sesión",
+        url: "#",
         active: false,
       },
       {
-        name: "Reset password",
-        url: "https://preview.cruip.com/simple/reset-password.html",
+        name: "Restablecer contraseña",
+        url: "#",
         active: false,
       },
     ];
     if (window != top) {
-      window.parent.postMessage(pagesList, "https://cruip.com");
+      window.parent.postMessage(pagesList, "https://atlantida.mx");
     }
   </script>
 </body>

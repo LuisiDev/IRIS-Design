@@ -296,3 +296,50 @@ const highlighters = document.querySelectorAll('[data-highlighter]');
 highlighters.forEach((highlighter) => {
   new Highlighter(highlighter);
 });
+
+// Show Forms
+function showLoginForm() {
+  document.getElementById('login-form').style.display = 'block';
+  document.getElementById('inicio-form').style.display = 'none';
+  document.getElementById('registro-form').style.display = 'none';
+  document.getElementById('restablecer-form').style.display = 'none';
+}
+
+function showRegistroForm() {
+  document.getElementById('registro-form').style.display = 'block';
+  document.getElementById('login-form').style.display = 'none';
+  document.getElementById('restablecer-form').style.display = 'none';
+}
+
+function showRestablecerForm() {
+  document.getElementById('restablecer-form').style.display = 'block';
+  document.getElementById('login-form').style.display = 'none';
+  document.getElementById('inicio-form').style.display = 'none';
+}
+
+// Light switcher
+const lightSwitches = document.querySelectorAll('.light-switch');
+if (lightSwitches.length > 0) {
+  lightSwitches.forEach((lightSwitch, i) => {
+    if (localStorage.getItem('dark-mode') === 'true') {
+      // eslint-disable-next-line no-param-reassign
+      lightSwitch.checked = true;
+    }
+    lightSwitch.addEventListener('change', () => {
+      const { checked } = lightSwitch;
+      lightSwitches.forEach((el, n) => {
+        if (n !== i) {
+          // eslint-disable-next-line no-param-reassign
+          el.checked = checked;
+        }
+      });
+      if (lightSwitch.checked) {
+        document.documentElement.classList.add('dark');
+        localStorage.setItem('dark-mode', true);
+      } else {
+        document.documentElement.classList.remove('dark');
+        localStorage.setItem('dark-mode', false);
+      }
+    });
+  });
+}
