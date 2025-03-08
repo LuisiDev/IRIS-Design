@@ -391,7 +391,7 @@
               </div>
 
               <!-- Right content -->
-              <div class="cur4u cynlw" data-aos="fade-up">
+              <div class="cur4u cynlw" data-aos="fade-up" data-aos-delay="100">
                 <div class="cklw9 cgoqt csvh0">
                   <div id="tabpanel-1" role="tabpanel" tabindex="0" aria-labelledby="tab-1" x-show="activeTab === 1"
                     x-transition:enter="c4gtl cbt1r cphqg cjyh4 c60sk" x-transition:enter-start="csybr csd8k"
@@ -399,13 +399,91 @@
                     x-transition:leave-start="cap0s c3rpv" x-transition:leave-end="csybr c2luz">
                     <!-- Local video -->
                     <div class="c0vjw c4a2s">
-                      <video class="c13of" autoplay loop muted playsinline style="transform: scaleX(-1);">
+                      <video class="c13of" style="transform: scaleX(-1);" autoplay loop muted playsinline>
                         <source src="./images/chatbot.mp4" type="video/mp4" />
-                      </video>
                     </div>
                   </div>
                 </div>
               </div>
+
+              <!-- Image -->
+              <!-- <div class="cvv3w cxjps" data-aos="fade-up" data-aos-delay="100">
+                <div class="c0vjw cu9si cn5u8">
+
+                  <div class="cxj2n cogum ci34p">
+                    <canvas data-particle-animation="" data-particle-quantity="8" data-particle-staticity="30"></canvas>
+                  </div>
+
+                  <div class="cxbhj cdrow c4a2s">
+                    <div class="cxbhj cdrow c0vjw c4a2s ca3dp cnbly">
+                      <svg class="cdibk cc8v2 c38j2 cx9qa c82xa c3mi3 cxj2n ciebj cogum c6jif" width="480" height="480"
+                        viewBox="0 0 480 480" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                          <linearGradient id="pulse-a" x1="50%" x2="50%" y1="100%" y2="0%">
+                            <stop offset="0%" stop-color="#A855F7"></stop>
+                            <stop offset="76.382%" stop-color="#FAF5FF"></stop>
+                            <stop offset="100%" stop-color="#6366F1"></stop>
+                          </linearGradient>
+                        </defs>
+                        <g fill-rule="evenodd">
+                          <path class="c3wbi" fill="url(#pulse-a)" fill-rule="evenodd"
+                            d="M240,0 C372.5484,0 480,107.4516 480,240 C480,372.5484 372.5484,480 240,480 C107.4516,480 0,372.5484 0,240 C0,107.4516 107.4516,0 240,0 Z M240,88.8 C156.4944,88.8 88.8,156.4944 88.8,240 C88.8,323.5056 156.4944,391.2 240,391.2 C323.5056,391.2 391.2,323.5056 391.2,240 C391.2,156.4944 323.5056,88.8 240,88.8 Z">
+                          </path>
+                          <path class="c6sru c3wbi" fill="url(#pulse-a)" fill-rule="evenodd"
+                            d="M240,0 C372.5484,0 480,107.4516 480,240 C480,372.5484 372.5484,480 240,480 C107.4516,480 0,372.5484 0,240 C0,107.4516 107.4516,0 240,0 Z M240,88.8 C156.4944,88.8 88.8,156.4944 88.8,240 C88.8,323.5056 156.4944,391.2 240,391.2 C323.5056,391.2 391.2,323.5056 391.2,240 C391.2,156.4944 323.5056,88.8 240,88.8 Z">
+                          </path>
+                          <path class="chkdx c3wbi" fill="url(#pulse-a)" fill-rule="evenodd"
+                            d="M240,0 C372.5484,0 480,107.4516 480,240 C480,372.5484 372.5484,480 240,480 C107.4516,480 0,372.5484 0,240 C0,107.4516 107.4516,0 240,0 Z M240,88.8 C156.4944,88.8 88.8,156.4944 88.8,240 C88.8,323.5056 156.4944,391.2 240,391.2 C323.5056,391.2 391.2,323.5056 391.2,240 C391.2,156.4944 323.5056,88.8 240,88.8 Z">
+                          </path>
+                        </g>
+                      </svg>
+                      <div class="c9prb cc8v2 c38j2 cx9qa overflow-hidden csv9q coo61 cutxa c82xa c3mi3 cxj2n ciebj cogum">
+                        <div class="cvsez cr959">
+                          <div class="c2t07 cczds cxm3k cxj2n cogum"></div>
+                          <div class="ctl9n cxj2ns cogum"></div>
+                          <div class="csqkd cczds cxm3k cxj2n cogum"></div>
+                          <div class="cbn6o cxj2n cogum"></div>
+                        </div>
+                      </div>
+                      <div x-show="tab === '1'" x-transition:enter="coh5f cllip cdmt4 ceqn3"
+                        x-transition:enter-start="cwshc co0cs" x-transition:enter-end="c5an1 cuql2"
+                        x-transition:leave="coh5f cllip cdmt4 csbhs" x-transition:leave-start="c5an1 cuql2"
+                        x-transition:leave-end="cwshc cu1sn">
+                        <div
+                          class="cjg8t cjhxf c115b cn0tc cgr36 ckogm c8c0t cv6pf cta5t cvotd c5cyt c4lt2 cb919 citnk cqxtx ci523">
+                          <img class="c13of" src="./images/chatbot.gif" width="40" height="40" alt="IRIS" />
+                        </div>
+                      </div>
+                      <div x-show="tab === '2'" x-transition:enter="coh5f cllip cdmt4 ceqn3"
+                        x-transition:enter-start="cwshc co0cs" x-transition:enter-end="c5an1 cuql2"
+                        x-transition:leave="coh5f cllip cdmt4 csbhs" x-transition:leave-start="c5an1 cuql2"
+                        x-transition:leave-end="cwshc cu1sn">
+                        <div
+                          class="cjg8t cjhxf c115b cn0tc cgr36 ckogm c8c0t cv6pf cta5t cvotd c5cyt c4lt2 cb919 citnk cqxtx ci523">
+                          <svg class="c7u3b c4lt2" xmlns="http://www.w3.org/2000/svg" width="22" height="22">
+                            <path
+                              d="M18 14h-2V8h2c2.2 0 4-1.8 4-4s-1.8-4-4-4-4 1.8-4 4v2H8V4c0-2.2-1.8-4-4-4S0 1.8 0 4s1.8 4 4 4h2v6H4c-2.2 0-4 1.8-4 4s1.8 4 4 4 4-1.8 4-4v-2h6v2c0 2.2 1.8 4 4 4s4-1.8 4-4-1.8-4-4-4ZM16 4c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2h-2V4ZM2 4c0-1.1.9-2 2-2s2 .9 2 2v2H4c-1.1 0-2-.9-2-2Zm4 14c0 1.1-.9 2-2 2s-2-.9-2-2 .9-2 2-2h2v2ZM8 8h6v6H8V8Zm10 12c-1.1 0-2-.9-2-2v-2h2c1.1 0 2 .9 2 2s-.9 2-2 2Z">
+                            </path>
+                          </svg>
+                        </div>
+                      </div>
+                      <div x-show="tab === '3'" x-transition:enter="coh5f cllip cdmt4 ceqn3"
+                        x-transition:enter-start="cwshc co0cs" x-transition:enter-end="c5an1 cuql2"
+                        x-transition:leave="coh5f cllip cdmt4 csbhs" x-transition:leave-start="c5an1 cuql2"
+                        x-transition:leave-end="cwshc cu1sn">
+                        <div
+                          class="cjg8t cjhxf c115b cn0tc cgr36 ckogm c8c0t cv6pf cta5t cvotd c5cyt c4lt2 cb919 citnk cqxtx ci523">
+                          <svg class="c7u3b c4lt2" xmlns="http://www.w3.org/2000/svg" width="26" height="14">
+                            <path fill-rule="nonzero" d="m10 5.414-8 8L.586 12 10 2.586l6 6 8-8L25.414 2 16 11.414z">
+                            </path>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+
             </div>
           </div>
       </section>
@@ -432,10 +510,10 @@
                     </p>
                   </div>
 
-                  <button class="button">
+                  <!-- <button class="button">
                     <div class="dots_border"></div>
                     <span class="text_button">Generate Site</span>
-                  </button>
+                  </button> -->
 
                   <!-- Buttons -->
                   <div role="tablist" class="ckwe7 cih6g c6dyc c969c" @keydown.right.prevent.stop="$focus.wrap().next()"
@@ -446,14 +524,12 @@
                       :class="activeTab !== 1 ? 'cj4h1 ca7zz' : 'ckqrw cwq93 cl5ur'"
                       :tabindex="activeTab === 1 ? 0 : -1" :aria-selected="activeTab === 1" aria-controls="tabpanel-1"
                       @click="activeTab = 1" @focus="activeTab = 1">
-                      <svg class="c21kk cfufg c2eey" :class="activeTab !== 1 ? 'cniyu' : 'c4ow8'"
-                        xmlns="http://www.w3.org/2000/svg" width="16" height="16">
-                        <path
-                          d="m14.092 5.207-8.207 8.207-3.592-3.591 1.414-1.415 2.178 2.178 6.793-6.793 1.414 1.414Z">
-                        </path>
+                      <svg class="cds12 cfufg c2eey" :class="activeTab !== 1 ? 'cniyu' : 'c4aw1'"
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 48 48">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                          d="m8.97 25.822l28.946 16.655M8.969 21.79l30.06 17.297M8.97 18.631l30.06 17.296M17.698 4.501L39.03 16.776M12.626 4.5h22.75a3.64 3.64 0 0 1 3.655 3.627v31.73a3.64 3.64 0 0 1-3.639 3.643H12.626a3.64 3.64 0 0 1-3.655-3.627V8.143A3.64 3.64 0 0 1 12.61 4.5z" />
                       </svg>
-                      <span>
-                        <span class="cr6se c25fq">Cuentas espejo</span>
+                      <span class="cr6se cc7ls">Cuentas espejo</span>
                       </span>
                     </button>
                     <button id="tab-2"
@@ -461,40 +537,43 @@
                       :class="activeTab !== 2 ? 'cj4h1 ca7zz' : 'ckqrw cwq93 cl5ur'"
                       :tabindex="activeTab === 2 ? 0 : -1" :aria-selected="activeTab === 2" aria-controls="tabpanel-2"
                       @click="activeTab = 2" @focus="activeTab = 2">
-                      <svg class="cynlw" :class="activeTab !== 2 ? 'cniyu' : 'c4ow8'" xmlns="http://www.w3.org/2000/svg"
-                        width="16" height="16">
-                        <path
-                          d="m14.092 5.207-8.207 8.207-3.592-3.591 1.414-1.415 2.178 2.178 6.793-6.793 1.414 1.414Z">
-                        </path>
+                      <svg class="cds12 cfufg c2eey" :class="activeTab !== 2 ? 'cniyu' : 'c4aw1'"
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 48 48">
+                        <circle cx="26.094" cy="24" r="3.74" fill="none" stroke="currentColor" stroke-linecap="round"
+                          stroke-linejoin="round" />
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                          d="M33.024 17.97a9.18 9.18 0 0 1-.035 12.099m3.933-16.689a15.16 15.16 0 0 1 .03 21.21m-9.256-17.744V9.485A3.987 3.987 0 0 0 23.713 5.5H10.72a3.986 3.986 0 0 0-3.984 3.985v29.03A3.986 3.986 0 0 0 10.72 42.5h12.992a3.987 3.987 0 0 0 3.983-3.985V31.33M6.737 37.062h20.96M6.737 10.959h20.96" />
                       </svg>
                       <span>
-                        <span class="cr6se c25fq">Ubicación de equipos</span>
+                        <span class="cr6se cc7ls">Ubicación de equipos</span>
                     </button>
-                    <button id="tab-3" class="c4h8f cpq1v cqbkb cdrow cz8jp cc7ls c0lz8 cwcpl cwcj6 cnrm4 cb3uk c3ytk c4a2s cblyd c37mk"
-                      :class="activeTab !== 3 ? 'cj4h1 ca7zz' : 'ckqrw cwq93 cl5ur'" :tabindex="activeTab === 3 ? 0 : -1"
-                      :aria-selected="activeTab === 3" aria-controls="tabpanel-3" @click="activeTab = 3"
-                      @focus="activeTab = 3">
-                      <svg class="cynlw" :class="activeTab !== 3 ? 'cniyu' : 'c4ow8'" xmlns="http://www.w3.org/2000/svg"
-                        width="16" height="16">
-                        <path
-                          d="m14.092 5.207-8.207 8.207-3.592-3.591 1.414-1.415 2.178 2.178 6.793-6.793 1.414 1.414Z">
-                        </path>
+                    <button id="tab-3"
+                      class="c4h8f cpq1v cqbkb cdrow cz8jp cc7ls c0lz8 cwcpl cwcj6 cnrm4 cb3uk c3ytk c4a2s cblyd c37mk"
+                      :class="activeTab !== 3 ? 'cj4h1 ca7zz' : 'ckqrw cwq93 cl5ur'"
+                      :tabindex="activeTab === 3 ? 0 : -1" :aria-selected="activeTab === 3" aria-controls="tabpanel-3"
+                      @click="activeTab = 3" @focus="activeTab = 3">
+                      <svg class="cds12 cfufg c2eey" :class="activeTab !== 3 ? 'cniyu' : 'c4aw1'"
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 48 48">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                          d="M41.865 42.5c0-9.867-7.998-17.865-17.865-17.865S6.135 32.633 6.135 42.5z" />
+                        <circle cx="24.412" cy="15.074" r="9.574" fill="none" stroke="currentColor"
+                          stroke-linecap="round" stroke-linejoin="round" />
                       </svg>
                       <span>
-                        <span class="cr6se c25fq">Información del usuario</span>
+                        <span class="cr6se cc7ls">Información del usuario</span>
                     </button>
-                    <button id="tab-4" class="c4h8f cpq1v cqbkb cdrow cz8jp cc7ls c0lz8 cwcpl cwcj6 cnrm4 cb3uk c3ytk c4a2s cblyd c37mk"
-                      :class="activeTab !== 4 ? 'cj4h1 ca7zz' : 'ckqrw cwq93 cl5ur'" :tabindex="activeTab === 4 ? 0 : -1"
-                      :aria-selected="activeTab === 4" aria-controls="tabpanel-4" @click="activeTab = 4"
-                      @focus="activeTab = 4">
-                      <svg class="cynlw" :class="activeTab !== 4 ? 'cniyu' : 'c4ow8'" xmlns="http://www.w3.org/2000/svg"
-                        width="16" height="16">
-                        <path
-                          d="m14.092 5.207-8.207 8.207-3.592-3.591 1.414-1.415 2.178 2.178 6.793-6.793 1.414 1.414Z">
-                        </path>
+                    <button id="tab-4"
+                      class="c4h8f cpq1v cqbkb cdrow cz8jp cc7ls c0lz8 cwcpl cwcj6 cnrm4 cb3uk c3ytk c4a2s cblyd c37mk"
+                      :class="activeTab !== 4 ? 'cj4h1 ca7zz' : 'ckqrw cwq93 cl5ur'"
+                      :tabindex="activeTab === 4 ? 0 : -1" :aria-selected="activeTab === 4" aria-controls="tabpanel-4"
+                      @click="activeTab = 4" @focus="activeTab = 4">
+                      <svg class="cds12 cfufg c2eey" :class="activeTab !== 4 ? 'cniyu' : 'c4aw1'"
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 48 48">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                          d="M37.962 14.925a3.456 3.456 0 0 1-4.887-4.887L28.539 5.5L5.5 28.538l4.538 4.538a3.456 3.456 0 0 1 4.887 4.886l4.537 4.538L42.5 19.462Zm-16.056-2.793L24 14.226m1.862 1.862l2.094 2.094m1.862 1.862l2.094 2.094M33.774 24l2.094 2.094" />
                       </svg>
                       <span>
-                        <span class="cr6se c25fq">Generación de incidencias</span>
+                        <span class="cr6se cc7ls">Generación de incidencias</span>
                     </button>
                   </div>
 
@@ -502,30 +581,30 @@
               </div>
 
               <!-- Right content -->
-              <div class="cur4u cynlw" data-aos="fade-up">
-                <div class="cklw9 cgoqt csvh0">
+              <div class="cur4u cfufg" data-aos="fade-up">
+                <div class="c0vjw cl8ef c4a2s">
                   <div id="tabpanel-1" role="tabpanel" tabindex="0" aria-labelledby="tab-1" x-show="activeTab === 1"
-                    x-transition:enter="cwcpl cbt1r cphqg c4giq c60sk" x-transition:enter-start="csybr csd8k"
-                    x-transition:enter-end="cap0s c3rpv" x-transition:leave="c4gtl cbt1r c1e6a cjyh4 cssij"
-                    x-transition:leave-start="cap0s c3rpv" x-transition:leave-end="csybr c2luz">
+                    x-transition:enter="cwcpl cbt1r c4giq c3mi3 cgn13" x-transition:enter-start="cio1t csd8k"
+                    x-transition:enter-end="c8bnb c2rsc" x-transition:leave="cwcpl cbt1r coclo c3mi3 cxj2n"
+                    x-transition:leave-start="c8bnb c2rsc" x-transition:leave-end="cio1t c2luz">
                     <img src="./images/docs-illustration.png" width="540" height="520" alt="Carousel 01">
                   </div>
                   <div id="tabpanel-2" role="tabpanel" tabindex="0" aria-labelledby="tab-2" x-show="activeTab === 2"
-                    x-transition:enter="c4gtl cbt1r cphqg cjyh4 c60sk" x-transition:enter-start="csybr csd8k"
-                    x-transition:enter-end="cap0s c3rpv" x-transition:leave="c4gtl cbt1r c1e6a cjyh4 cssij"
-                    x-transition:leave-start="cap0s c3rpv" x-transition:leave-end="csybr c2luz">
+                    x-transition:enter="cwcpl cbt1r c4giq c3mi3 cgn13" x-transition:enter-start="cio1t csd8k"
+                    x-transition:enter-end="c8bnb c2rsc" x-transition:leave="cwcpl cbt1r coclo c3mi3 cxj2n"
+                    x-transition:leave-start="c8bnb c2rsc" x-transition:leave-end="cio1t c2luz">
                     <img src="./images/docs-illustration.png" width="540" height="520" alt="Carousel 02">
                   </div>
                   <div id="tabpanel-3" role="tabpanel" tabindex="0" aria-labelledby="tab-3" x-show="activeTab === 3"
-                    x-transition:enter="c4gtl cbt1r cphqg cjyh4 c60sk" x-transition:enter-start="csybr csd8k"
-                    x-transition:enter-end="cap0s c3rpv" x-transition:leave="c4gtl cbt1r c1e6a cjyh4 cssij"
-                    x-transition:leave-start="cap0s c3rpv" x-transition:leave-end="csybr c2luz">
+                    x-transition:enter="cwcpl cbt1r c4giq c3mi3 cgn13" x-transition:enter-start="cio1t csd8k"
+                    x-transition:enter-end="c8bnb c2rsc" x-transition:leave="cwcpl cbt1r coclo c3mi3 cxj2n"
+                    x-transition:leave-start="c8bnb c2rsc" x-transition:leave-end="cio1t c2luz">
                     <img src="./images/docs-illustration.png" width="540" height="520" alt="Carousel 03">
                   </div>
                   <div id="tabpanel-4" role="tabpanel" tabindex="0" aria-labelledby="tab-4" x-show="activeTab === 4"
-                    x-transition:enter="c4gtl cbt1r cphqg cjyh4 c60sk" x-transition:enter-start="csybr csd8k"
-                    x-transition:enter-end="cap0s c3rpv" x-transition:leave="c4gtl cbt1r c1e6a cjyh4 cssij"
-                    x-transition:leave-start="cap0s c3rpv" x-transition:leave-end="csybr c2luz">
+                    x-transition:enter="cwcpl cbt1r c4giq c3mi3 cgn13" x-transition:enter-start="cio1t csd8k"
+                    x-transition:enter-end="c8bnb c2rsc" x-transition:leave="cwcpl cbt1r coclo c3mi3 cxj2n"
+                    x-transition:leave-start="c8bnb c2rsc" x-transition:leave-end="cio1t c2luz">
                     <img src="./images/docs-illustration.png" width="540" height="520" alt="Carousel 04">
                   </div>
                 </div>
@@ -534,118 +613,559 @@
           </div>
       </section>
 
-      <section>
+      <!-- La unión de todo -->
+      <section class="c0vjw">
         <div class="cxbfd chf4b cqcwp cn7jq">
           <div class="creo4 ck5d4 crm25 c1gwx">
-            <div class="c5j5d cdrow c5ivn cykqi c1spb ccd2c cl8ef cb4uz c4a2s" x-data="{ activeTab: 1 }">
-              <!-- Logo animation -->
-              <div class="cyasf clanb cqcvb cd80p cptnn">
-                <!-- Blurred dots -->
-                <svg class="cjftm cu4sx cz0js" width="557" height="93" xmlns="http://www.w3.org/2000/svg">
-                  <defs>
-                    <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox"
-                      id="hlogo-blurreddots-a">
-                      <feGaussianBlur stdDeviation="2" in="SourceGraphic"></feGaussianBlur>
-                    </filter>
-                    <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox"
-                      id="blurreddots-b">
-                      <feGaussianBlur stdDeviation="2" in="SourceGraphic"></feGaussianBlur>
-                    </filter>
-                    <filter x="-150%" y="-150%" width="400%" height="400%" filterUnits="objectBoundingBox"
-                      id="blurreddots-c">
-                      <feGaussianBlur stdDeviation="6" in="SourceGraphic"></feGaussianBlur>
-                    </filter>
-                    <filter x="-150%" y="-150%" width="400%" height="400%" filterUnits="objectBoundingBox"
-                      id="blurreddots-d">
-                      <feGaussianBlur stdDeviation="4" in="SourceGraphic"></feGaussianBlur>
-                    </filter>
-                    <filter x="-150%" y="-150%" width="400%" height="400%" filterUnits="objectBoundingBox"
-                      id="blurreddots-e">
-                      <feGaussianBlur stdDeviation="4" in="SourceGraphic"></feGaussianBlur>
-                    </filter>
-                    <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox"
-                      id="blurreddots-f">
-                      <feGaussianBlur stdDeviation="2" in="SourceGraphic"></feGaussianBlur>
-                    </filter>
-                    <filter x="-100%" y="-100%" width="300%" height="300%" filterUnits="objectBoundingBox"
-                      id="blurreddots-g">
-                      <feGaussianBlur stdDeviation="4" in="SourceGraphic"></feGaussianBlur>
-                    </filter>
-                    <filter x="-150%" y="-150%" width="400%" height="400%" filterUnits="objectBoundingBox"
-                      id="blurreddots-h">
-                      <feGaussianBlur stdDeviation="6" in="SourceGraphic"></feGaussianBlur>
-                    </filter>
-                    <filter x="-150%" y="-150%" width="400%" height="400%" filterUnits="objectBoundingBox"
-                      id="blurreddots-i">
-                      <feGaussianBlur stdDeviation="4" in="SourceGraphic"></feGaussianBlur>
-                    </filter>
-                    <filter x="-75%" y="-75%" width="250%" height="250%" filterUnits="objectBoundingBox"
-                      id="blurreddots-j">
-                      <feGaussianBlur stdDeviation="2" in="SourceGraphic"></feGaussianBlur>
-                    </filter>
-                  </defs>
-                  <g fill="none" fill-rule="evenodd">
-                    <g class="cxipd" transform="translate(437 8)">
-                      <circle fill-opacity=".64" filter="url(#blurreddots-a)" cx="6" cy="66" r="6"></circle>
-                      <circle fill-opacity=".32" filter="url(#blurreddots-b)" cx="90" cy="6" r="6"></circle>
-                      <circle fill-opacity=".64" filter="url(#blurreddots-c)" cx="90" cy="66" r="6"></circle>
-                      <circle fill-opacity=".32" filter="url(#blurreddots-d)" cx="6" cy="36" r="4"></circle>
-                      <circle fill-opacity=".32" filter="url(#blurreddots-e)" cx="60" cy="36" r="4"></circle>
-                      <circle fill-opacity=".64" cx="34" cy="22" r="2"></circle>
-                      <circle fill-opacity=".32" cx="34" cy="50" r="2"></circle>
-                      <circle fill-opacity=".64" cx="118" cy="22" r="2"></circle>
-                      <circle fill-opacity=".32" cx="118" cy="50" r="2"></circle>
-                    </g>
-                    <g class="cxipd" transform="matrix(-1 0 0 1 120 8)">
-                      <circle fill-opacity=".64" filter="url(#blurreddots-f)" cx="6" cy="66" r="6"></circle>
-                      <circle fill-opacity=".32" filter="url(#blurreddots-g)" cx="90" cy="6" r="6"></circle>
-                      <circle fill-opacity=".64" filter="url(#blurreddots-h)" cx="90" cy="66" r="6"></circle>
-                      <circle fill-opacity=".32" filter="url(#blurreddots-i)" cx="6" cy="36" r="4"></circle>
-                      <circle fill-opacity=".64" filter="url(#blurreddots-j)" cx="60" cy="36" r="4"></circle>
-                      <circle fill-opacity=".32" cx="34" cy="22" r="2"></circle>
-                      <circle fill-opacity=".32" cx="34" cy="50" r="2"></circle>
-                      <circle fill-opacity=".64" cx="118" cy="22" r="2"></circle>
-                      <circle fill-opacity=".32" cx="118" cy="50" r="2"></circle>
-                    </g>
-                  </g>
-                </svg>
-                <div class="cyasf clanb ci79m c7j8l cd80p cj8jb">
-                  <!-- Halo effect -->
-                  <svg class="c1wya cjftm cd1hm cta51 cu4sx clgft c07ti cj3ve cz0js c8ch0" width="800" height="800"
-                    viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+
+            <div class="c4a2s cxbhj ckmmd cnsl6 c0u5w chuib czlz1 c93x7 cdrow cqmuf cjnt3 c0dcb cuq1a cnzyi c117c">
+              <span class="c7pbn cmgwh csuc4 ctbdc cgrvg cdrak">Controles avanzados</span>
+            </div>
+            <div class="cnv5k cczaz">
+              <h2 class="cfmhn clkfy ca6xa cmgwh ck08h cgrvg cjy9f czenk cm3px cfjwl">
+                La unión de todo
+              </h2>
+              <p class="cthiu cf2y5 cqcwp">
+                <b>IRIS</b> logra, mediante el uso de diferentes servicios, conectar toda la información acerca del
+                usuario y los productos dentro de cada sitio web de la empresa, por lo tanto puedes acceder a estos
+                datos
+                dentro de <b>IRIS</b> sin la necesidad de realizar un solo clic
+              </p>
+            </div>
+
+            <!-- Bottom vertical line -->
+            <div class="custom-shape-divider-bottom-1740770025">
+              <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path d="M600,112.77C268.63,112.77,0,65.52,0,7.23V120H1200V7.23C1200,65.52,931.37,112.77,600,112.77Z"
+                  class="shape-fill"></path>
+              </svg>
+            </div>
+
+            <div class="cxj2n c82xa cvros c9gtw cbkjh cqwum c38j2 cnwi0 chpvb" aria-hidden="true"></div>
+            <div class="cqcwp cxbfd cn7jq cx5hs">
+              <div class="c1gwx ck5d4">
+
+                <!-- Logo animation -->
+                <div class="c0vjw c4a2s cl8ef cdrow cptnn">
+                  <!-- Blurred dots -->
+                  <svg class="cxj2n ciebj cx9qa" width="557" height="93" xmlns="http://www.w3.org/2000/svg">
                     <defs>
-                      <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="lg-1">
-                        <stop stop-color="#0F172A" stop-opacity="0%" offset="0%"></stop>
-                        <stop stop-color="#0F172A" offset="100%"></stop>
-                      </linearGradient>
+                      <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox"
+                        id="hlogo-blurreddots-a">
+                        <feGaussianBlur stdDeviation="2" in="SourceGraphic"></feGaussianBlur>
+                      </filter>
+                      <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox"
+                        id="blurreddots-b">
+                        <feGaussianBlur stdDeviation="2" in="SourceGraphic"></feGaussianBlur>
+                      </filter>
+                      <filter x="-150%" y="-150%" width="400%" height="400%" filterUnits="objectBoundingBox"
+                        id="blurreddots-c">
+                        <feGaussianBlur stdDeviation="6" in="SourceGraphic"></feGaussianBlur>
+                      </filter>
+                      <filter x="-150%" y="-150%" width="400%" height="400%" filterUnits="objectBoundingBox"
+                        id="blurreddots-d">
+                        <feGaussianBlur stdDeviation="4" in="SourceGraphic"></feGaussianBlur>
+                      </filter>
+                      <filter x="-150%" y="-150%" width="400%" height="400%" filterUnits="objectBoundingBox"
+                        id="blurreddots-e">
+                        <feGaussianBlur stdDeviation="4" in="SourceGraphic"></feGaussianBlur>
+                      </filter>
+                      <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox"
+                        id="blurreddots-f">
+                        <feGaussianBlur stdDeviation="2" in="SourceGraphic"></feGaussianBlur>
+                      </filter>
+                      <filter x="-100%" y="-100%" width="300%" height="300%" filterUnits="objectBoundingBox"
+                        id="blurreddots-g">
+                        <feGaussianBlur stdDeviation="4" in="SourceGraphic"></feGaussianBlur>
+                      </filter>
+                      <filter x="-150%" y="-150%" width="400%" height="400%" filterUnits="objectBoundingBox"
+                        id="blurreddots-h">
+                        <feGaussianBlur stdDeviation="6" in="SourceGraphic"></feGaussianBlur>
+                      </filter>
+                      <filter x="-150%" y="-150%" width="400%" height="400%" filterUnits="objectBoundingBox"
+                        id="blurreddots-i">
+                        <feGaussianBlur stdDeviation="4" in="SourceGraphic"></feGaussianBlur>
+                      </filter>
+                      <filter x="-75%" y="-75%" width="250%" height="250%" filterUnits="objectBoundingBox"
+                        id="blurreddots-j">
+                        <feGaussianBlur stdDeviation="2" in="SourceGraphic"></feGaussianBlur>
+                      </filter>
                     </defs>
-                    <g class="cxipd c6jpl" fill-rule="evenodd">
-                      <circle class="csy62" cx="400" cy="400" r="200"></circle>
-                      <circle class="csy62 cy174" cx="400" cy="400" r="200"></circle>
-                      <circle class="csy62 cv1ql" cx="400" cy="400" r="200"></circle>
-                      <circle class="csy62 crrby" cx="400" cy="400" r="200"></circle>
-                      <rect fill="url(#lg-1)" width="800" height="800"></rect>
+                    <g fill="none" fill-rule="evenodd" style="fill: #0C8DFF;">
+                      <g class="c4aw1" transform="translate(437 8)">
+                        <circle fill-opacity=".64" filter="url(#blurreddots-a)" cx="6" cy="66" r="6"></circle>
+                        <circle fill-opacity=".32" filter="url(#blurreddots-b)" cx="90" cy="6" r="6"></circle>
+                        <circle fill-opacity=".64" filter="url(#blurreddots-c)" cx="90" cy="66" r="6"></circle>
+                        <circle fill-opacity=".32" filter="url(#blurreddots-d)" cx="6" cy="36" r="4"></circle>
+                        <circle fill-opacity=".32" filter="url(#blurreddots-e)" cx="60" cy="36" r="4"></circle>
+                        <circle fill-opacity=".64" cx="34" cy="22" r="2"></circle>
+                        <circle fill-opacity=".32" cx="34" cy="50" r="2"></circle>
+                        <circle fill-opacity=".64" cx="118" cy="22" r="2"></circle>
+                        <circle fill-opacity=".32" cx="118" cy="50" r="2"></circle>
+                      </g>
+                      <g class="c4aw1" transform="matrix(-1 0 0 1 120 8)">
+                        <circle fill-opacity=".64" filter="url(#blurreddots-f)" cx="6" cy="66" r="6"></circle>
+                        <circle fill-opacity=".32" filter="url(#blurreddots-g)" cx="90" cy="6" r="6"></circle>
+                        <circle fill-opacity=".64" filter="url(#blurreddots-h)" cx="90" cy="66" r="6"></circle>
+                        <circle fill-opacity=".32" filter="url(#blurreddots-i)" cx="6" cy="36" r="4"></circle>
+                        <circle fill-opacity=".64" filter="url(#blurreddots-j)" cx="60" cy="36" r="4"></circle>
+                        <circle fill-opacity=".32" cx="34" cy="22" r="2"></circle>
+                        <circle fill-opacity=".32" cx="34" cy="50" r="2"></circle>
+                        <circle fill-opacity=".64" cx="118" cy="22" r="2"></circle>
+                        <circle fill-opacity=".32" cx="118" cy="50" r="2"></circle>
+                      </g>
                     </g>
                   </svg>
-                  <!-- Logo -->
-                  <svg class="cnzro csn7f" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-                    <defs>
-                      <linearGradient x1="0%" y1="32.443%" x2="104.18%" y2="50%" id="a">
-                        <stop stop-color="#FFF" stop-opacity=".299" offset="0%"></stop>
-                        <stop stop-color="#7587E4" stop-opacity="0" offset="100%"></stop>
-                      </linearGradient>
-                      <linearGradient x1="18.591%" y1="0%" x2="100%" y2="100%" id="b">
-                        <stop stop-color="#818CF8" offset="0%"></stop>
-                        <stop stop-color="#C7D2FE" offset="100%"></stop>
-                      </linearGradient>
-                    </defs>
-                    <g fill="none" fill-rule="evenodd">
-                      <path fill="#3730A3" d="M16 18.5V32l15.999-9.25V9.25z"></path>
-                      <path fill="#4F46E5" d="m0 23 16 9V18.501L0 9.251z"></path>
-                      <path fill-opacity=".64" fill="url(#a)" d="M16 13 0 23l16 9 16-9z"></path>
-                      <path fill="url(#b)" d="M16 0 0 9.25l16 9.25 15.999-9.25z"></path>
-                    </g>
+                  <div class="c0vjw c4a2s ci79m c7j8l cdrow cxbhj">
+                    <!-- Halo effect -->
+                    <svg class="cc8v2 cxj2n cd1hm c82xa ciebj clgft c07ti c38j2 cx9qa c3mi3" width="800" height="800"
+                      viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+                      <g class="cds12 c6jpl gcirc" fill-rule="evenodd">
+                        <circle class="csy62 circ1" cx="400" cy="400" r="200"></circle>
+                        <circle class="csy62 cy174 circ2" cx="400" cy="400" r="200"></circle>
+                        <circle class="csy62 cv1ql circ3" cx="400" cy="400" r="200"></circle>
+                        <circle class="csy62 crrby circ4" cx="400" cy="400" r="200"></circle>
+                        <rect fill="url(#lg-1)" width="800" height="800"></rect>
+                      </g>
+                    </svg>
+                    <!-- Logo -->
+                    <svg viewBox="0 0 32 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <g clip-path="url(#clip0_3121_61)">
+                        <path
+                          d="M22.1797 0.328285C22.1439 0.38979 22.3285 0.884631 22.5766 1.39904C22.8384 1.93861 22.9184 2.12592 22.8881 2.12592C22.8495 2.12592 22.7254 2.04205 22.4415 1.82398C22.1466 1.59753 22.1191 1.58355 21.973 1.57237C21.769 1.55839 21.6092 1.6199 21.6092 1.71216C21.6092 1.85474 21.6698 2.29087 21.7111 2.4614C21.7718 2.71302 21.9041 3.01495 22.086 3.32807C22.1742 3.47345 22.2431 3.60205 22.2431 3.61323C22.2431 3.64399 22.1301 3.61323 21.9344 3.53216C21.6202 3.40355 21.5816 3.45388 21.6505 3.90398C21.7415 4.49388 21.8903 4.95237 22.1576 5.46678C22.2844 5.7156 22.3864 5.88055 22.8605 6.627C23.1609 7.09947 23.3566 7.49925 23.431 7.78721C23.511 8.10033 23.5303 8.63151 23.4724 8.967C23.3456 9.71345 22.8412 10.8569 22.1769 11.9109C22.075 12.073 21.9041 12.3833 21.7993 12.6042C21.5871 13.0487 21.5265 13.1466 21.0441 13.8119C19.3959 16.0848 18.8446 17.2674 18.4781 19.3111C18.2576 20.5384 18.0729 20.9969 17.6236 21.4107C17.3315 21.6846 17.0503 21.8104 16.2758 22.0201C15.5812 22.2046 15.1871 22.2438 12.7892 22.3528C10.846 22.4423 9.89787 22.4982 9.55058 22.5485C9.36867 22.5737 8.94972 22.5904 8.32405 22.596L7.37315 22.6044L7.31802 22.487C7.19399 22.227 6.98176 22.0872 6.70614 22.0872C6.41673 22.0872 6.17969 22.241 6.07496 22.4954C6.01983 22.6296 6.02535 22.898 6.08874 23.0433C6.14386 23.1775 6.30097 23.3313 6.43878 23.39C6.57108 23.4459 6.83568 23.4403 6.97901 23.376C7.11131 23.3201 7.2629 23.1608 7.32078 23.0238L7.35661 22.9343L9.05721 22.9175C9.99434 22.9064 11.1575 22.898 11.6453 22.898C12.4694 22.898 12.5356 22.9008 12.5769 22.9483C12.6376 23.0154 12.6348 23.0741 12.5769 23.1272C12.5328 23.1636 12.2903 23.1719 10.7909 23.1887C9.83723 23.1971 9.04619 23.2167 9.03241 23.2307C8.99382 23.2698 9.2722 23.4571 9.54231 23.5745C10.055 23.7982 10.383 23.8485 11.7418 23.9044C13.7731 23.9911 14.4071 24.1001 16.1931 24.6704C17.224 25.0031 18.7206 25.3805 19.5723 25.5231C20.446 25.6741 20.548 25.6797 21.871 25.6797H23.1113L23.533 25.5874C24.4564 25.3861 24.8725 25.1904 25.7573 24.5362C26.2727 24.156 26.6862 23.9519 27.2347 23.8038C27.513 23.7311 27.5489 23.7283 28.3757 23.7143C29.4148 23.7003 29.5527 23.7199 30.1783 23.9575C30.6248 24.1281 30.7819 24.1672 31.0989 24.198L31.2836 24.2147L31.4875 24.0722C31.6005 23.9967 31.6998 23.9212 31.708 23.9072C31.7163 23.8932 31.595 23.7562 31.4352 23.6025C31.1127 23.2866 30.9335 23.1831 30.4843 23.0517C29.7621 22.8393 29.2605 22.624 28.9215 22.378C28.8222 22.3053 28.599 22.1096 28.4253 21.9446C27.7997 21.3408 27.6288 21.2709 26.4739 21.1646C26.1266 21.1311 25.8235 21.1003 25.8014 21.0919C25.749 21.0752 25.7766 19.5935 25.84 19.0679C26.0247 17.533 26.4574 16.1911 27.1299 15.056C27.3504 14.6842 27.5847 14.3431 27.954 13.8595C28.4694 13.1857 28.6817 12.8279 28.8388 12.3582C28.9876 11.9137 29.0097 11.7319 29.0069 10.9464C29.0069 10.2111 28.9738 9.79732 28.8305 8.6399C28.5632 6.49839 27.9099 4.69237 26.9232 3.35882C26.6476 2.98699 26.5539 2.88635 26.4519 2.86678C26.3306 2.83882 26.2975 2.80807 26.2286 2.64312C26.1514 2.47259 26.0136 2.34119 25.4266 1.89388C24.5887 1.25366 23.8445 0.79237 23.2712 0.560327C22.8495 0.38979 22.221 0.258392 22.1797 0.328285ZM6.81087 22.3416C6.94317 22.3864 7.08099 22.5289 7.11406 22.6547C7.19399 22.9539 6.87978 23.2698 6.59313 23.1747C6.36161 23.1021 6.22104 22.8588 6.28719 22.6519C6.34231 22.4758 6.51596 22.3276 6.68684 22.3137C6.70338 22.3109 6.75851 22.3248 6.81087 22.3416Z"
+                          fill="url(#paint0_linear_3121_61)" />
+                        <path
+                          d="M0.758072 3.43835C0.631285 3.49706 0.479692 3.65642 0.424567 3.7934C0.369442 3.9276 0.374954 4.19599 0.438348 4.34136C0.493473 4.47556 0.650579 4.62932 0.788391 4.68803C0.920691 4.74394 1.18529 4.73835 1.32862 4.67405C1.46091 4.61814 1.61251 4.45878 1.67039 4.3162L1.70898 4.22394H3.49778C5.19287 4.22394 5.28658 4.22674 5.32793 4.27427C5.38856 4.34136 5.38581 4.40007 5.32517 4.45599C5.28107 4.49792 5.19838 4.50351 4.72982 4.50351C4.30812 4.50351 4.18684 4.5119 4.19511 4.53706C4.20338 4.55663 4.29433 4.63211 4.39907 4.7048C4.50381 4.77749 4.59201 4.85018 4.59752 4.86695C4.60303 4.88093 4.56996 4.97878 4.5231 5.07943C4.47625 5.18287 4.43766 5.27792 4.43766 5.2947C4.43766 5.31427 4.52586 5.41771 4.63335 5.52674L4.82905 5.72803L4.75463 5.77835C4.71328 5.80631 4.5865 5.85663 4.47073 5.89018C4.35222 5.92373 3.8809 6.10545 3.42061 6.28996L2.58271 6.62545L2.48624 6.53878C2.35118 6.41857 2.23266 6.37663 2.04248 6.37663C1.83576 6.37663 1.66763 6.44932 1.54636 6.58631C1.41957 6.73168 1.37823 6.8491 1.37823 7.0448C1.37823 7.25448 1.44989 7.42502 1.58495 7.54803C1.72827 7.67663 1.84403 7.71857 2.03421 7.71857C2.40906 7.71857 2.66815 7.48093 2.69847 7.1091L2.71501 6.93018L3.54188 6.59749C3.99666 6.41577 4.3908 6.25362 4.41561 6.23685C4.44868 6.21728 5.20941 6.20889 6.77495 6.20889C8.97995 6.20889 9.0902 6.21168 9.13154 6.25921C9.19218 6.32631 9.18942 6.38502 9.12879 6.44093C9.08193 6.48287 8.92758 6.48846 7.48882 6.48846C6.54894 6.48846 5.89847 6.49964 5.89847 6.51362C5.89847 6.54437 6.41389 6.85749 6.91828 7.13147C7.21871 7.29642 8.52517 7.94222 8.55824 7.94222C8.561 7.94222 8.68779 7.99814 8.83387 8.06803C9.09296 8.19104 9.10123 8.19663 9.0461 8.23857C9.01303 8.26093 8.91656 8.30566 8.83111 8.33642C8.68503 8.38674 8.59132 8.38953 7.60183 8.38953H6.5324L6.29537 8.21341C6.08865 8.05964 6.06384 8.03168 6.07762 7.97018C6.12448 7.77728 6.12448 7.52287 6.07762 7.39986C6.0225 7.25728 5.86264 7.09233 5.71656 7.03082C5.58426 6.97491 5.31966 6.9805 5.17633 7.0448C5.04403 7.10072 4.89244 7.26007 4.83456 7.39986C4.77943 7.53405 4.78495 7.80244 4.84834 7.94781C4.90898 8.09319 5.0964 8.26652 5.23697 8.30846C5.3362 8.33921 5.59528 8.33082 5.73861 8.29168C5.802 8.27491 5.85437 8.30287 6.09967 8.48459L6.38908 8.69706H9.90605H13.423V8.83685V8.97663H12.1C11.32 8.97663 10.777 8.98781 10.777 9.00179C10.777 9.01577 10.8597 9.07448 10.9644 9.13319C11.3696 9.36244 11.9898 9.79298 11.9898 9.84609C11.9898 9.86007 11.9402 9.89642 11.8795 9.92717C11.7996 9.9691 11.7169 9.98308 11.5626 9.98308H11.3531L11.3035 9.86287C11.2483 9.73147 11.0912 9.57771 10.9534 9.519C10.8211 9.46308 10.5565 9.46867 10.4132 9.53298C10.2809 9.58889 10.1293 9.74824 10.0714 9.88803C10.0163 10.0222 10.0218 10.2906 10.0852 10.436C10.1403 10.5702 10.2974 10.7239 10.4352 10.7827C10.5675 10.8386 10.8321 10.833 10.9755 10.7687C11.116 10.7072 11.218 10.6009 11.309 10.4304L11.3751 10.3046L13.9329 10.2962C16.7222 10.2906 16.6203 10.285 16.6203 10.4444C16.6203 10.6009 16.6561 10.5981 14.7267 10.5981C13.7538 10.5981 12.9517 10.6065 12.9462 10.6177C12.9379 10.6317 13.0234 10.7407 13.1364 10.8637C13.2494 10.9867 13.3403 11.1042 13.3403 11.1237C13.3403 11.1433 13.2576 11.1992 13.1529 11.2495L12.9682 11.339L11.6976 11.3474L10.4297 11.3558L10.0191 10.8917C9.79304 10.6345 9.58357 10.408 9.55325 10.3857C9.50639 10.3549 9.34102 10.3465 8.66298 10.3465H7.82784L7.79201 10.2543C7.74791 10.148 7.57978 9.99147 7.45299 9.93835C7.32069 9.88244 7.05609 9.88803 6.91277 9.95233C6.78047 10.0082 6.62887 10.1676 6.57099 10.3074C6.51587 10.4416 6.52138 10.71 6.58477 10.8553C6.6399 10.9895 6.797 11.1433 6.93482 11.202C7.06712 11.2579 7.33172 11.2523 7.47504 11.188C7.62112 11.1265 7.78925 10.9364 7.83335 10.7882L7.86367 10.682H8.62439H9.38512L9.71036 11.051C9.88951 11.2523 10.0301 11.4313 10.0246 11.448C10.0191 11.4648 9.69382 11.6074 9.30243 11.7639L8.59132 12.0491L8.49485 11.9624C8.3598 11.8422 8.24128 11.8003 8.0511 11.8003C7.84438 11.8003 7.67625 11.873 7.55497 12.01C7.42818 12.1553 7.38684 12.2728 7.38684 12.4685C7.38684 12.6781 7.4585 12.8487 7.59356 12.9717C7.73688 13.1003 7.85265 13.1422 8.04283 13.1422C8.41768 13.1422 8.67676 12.9046 8.70708 12.5328L8.72362 12.3538L9.55049 12.0211C10.0053 11.8394 10.3994 11.6773 10.4242 11.6605C10.4573 11.6409 11.218 11.6325 12.7836 11.6325C14.9886 11.6325 15.0988 11.6353 15.1402 11.6829C15.2008 11.75 15.198 11.8087 15.1374 11.8646C15.0933 11.9065 15.0106 11.9121 14.5476 11.9121C14.2526 11.9121 14.0046 11.9205 13.9936 11.9289C13.9853 11.9401 14.0129 11.9988 14.0542 12.0631C14.181 12.2476 14.498 12.8151 14.498 12.8543C14.498 12.8738 14.4235 12.927 14.3326 12.9745L14.17 13.0584H13.3541H12.5383L12.4887 12.9381C12.4335 12.8067 12.2764 12.653 12.1386 12.5943C12.0063 12.5384 11.7417 12.5439 11.5984 12.6082C11.4661 12.6642 11.3145 12.8235 11.2566 12.9633C11.2015 13.0975 11.207 13.3659 11.2704 13.5113C11.3255 13.6454 11.4826 13.7992 11.6204 13.8579C11.7527 13.9138 12.0173 13.9082 12.1607 13.8439C12.3012 13.7824 12.4032 13.6762 12.4942 13.5057L12.5603 13.3799L15.1181 13.3715C17.9074 13.3659 17.8054 13.3603 17.8054 13.5196C17.8054 13.6734 17.8054 13.6734 16.3116 13.6734C15.4957 13.6734 14.9362 13.6846 14.9252 13.6986C14.9169 13.7125 14.95 13.8244 14.9968 13.9446C15.1787 14.4059 15.3524 14.9091 15.3386 14.9343C15.3055 14.9846 15.0713 15.1076 14.8811 15.1719L14.6854 15.239H12.7174H10.7495L10.5124 15.0629C10.3057 14.9091 10.2809 14.8811 10.2947 14.8196C10.3415 14.6267 10.3415 14.3723 10.2947 14.2493C10.2396 14.1067 10.0797 13.9418 9.93361 13.8803C9.80131 13.8244 9.53671 13.83 9.39339 13.8943C9.26109 13.9502 9.10949 14.1095 9.05161 14.2493C8.99649 14.3835 9.002 14.6519 9.06539 14.7973C9.12603 14.9427 9.31346 15.116 9.45402 15.1579C9.55325 15.1887 9.81234 15.1803 9.95566 15.1411C10.0191 15.1244 10.0742 15.1551 10.336 15.348L10.6447 15.5745H10.89C11.0251 15.5745 11.1353 15.5829 11.1353 15.5941C11.1353 15.6052 11.083 15.6975 11.0223 15.8037L10.9093 15.9938H10.1238H9.34102L9.29141 15.8736C9.23628 15.7422 9.07918 15.5885 8.94136 15.5298C8.80906 15.4738 8.54446 15.4794 8.40114 15.5437C8.26884 15.5996 8.11725 15.759 8.05936 15.8988C8.00424 16.033 8.00975 16.3014 8.07315 16.4467C8.12827 16.5809 8.28538 16.7347 8.42319 16.7934C8.55549 16.8493 8.82009 16.8437 8.96341 16.7794C9.09571 16.7235 9.24731 16.5642 9.30519 16.4216L9.34377 16.3293H10.212C11.0444 16.3293 11.083 16.3265 11.1353 16.2734C11.1657 16.2427 11.1905 16.2063 11.1905 16.1923C11.1905 16.1448 11.524 15.6164 11.5846 15.5689C11.6397 15.5242 11.8189 15.5186 14.17 15.5186C16.5817 15.5186 16.6974 15.5214 16.7388 15.5689C16.7994 15.636 16.7967 15.6947 16.736 15.7506C16.6919 15.7925 16.6092 15.7981 16.171 15.7981C15.8899 15.7981 15.6528 15.8093 15.6446 15.8205C15.6363 15.8345 15.6611 15.9491 15.6997 16.0805C15.7989 16.4216 15.7934 16.4328 15.5343 16.567L15.3138 16.6788L14.6303 16.6872L13.9467 16.6956L13.8943 16.5753C13.8392 16.4411 13.6821 16.2874 13.5443 16.2287C13.412 16.1728 13.1474 16.1784 13.0041 16.2427C12.8718 16.2986 12.7202 16.4579 12.6623 16.5977C12.6072 16.7319 12.6127 17.0003 12.6761 17.1457C12.7312 17.2799 12.8883 17.4336 13.0261 17.4923C13.1584 17.5482 13.423 17.5427 13.5663 17.4784C13.7069 17.4168 13.8089 17.3106 13.8998 17.1401L13.966 17.0143L15.5867 17.0059C17.3507 17.0003 17.3369 16.9975 17.3369 17.1513C17.3369 17.2827 17.2873 17.2938 16.6368 17.3078L16.0277 17.3218L16.0359 17.4644C16.0442 17.5986 16.0387 17.6153 15.9643 17.6685C15.9174 17.6992 15.8044 17.7635 15.7079 17.811L15.5315 17.8949H13.5112H11.4909L11.4413 17.7747C11.3862 17.6433 11.229 17.4895 11.0912 17.4308C10.9589 17.3749 10.6943 17.3805 10.551 17.4448C10.4187 17.5007 10.2671 17.6601 10.2092 17.7999C10.1541 17.9341 10.1596 18.2024 10.223 18.3478C10.2781 18.482 10.4352 18.6358 10.5731 18.6945C10.7054 18.7504 10.97 18.7448 11.1133 18.6805C11.2539 18.619 11.3558 18.5128 11.4468 18.3422L11.5129 18.2164H14.1286H16.7443V18.3562V18.496L16.51 18.5044C16.3805 18.51 16.2675 18.5211 16.2537 18.5351C16.2427 18.5463 16.2537 18.6917 16.2785 18.8538C16.3033 19.016 16.3171 19.1698 16.3088 19.1921C16.3005 19.2145 16.1848 19.2872 16.0525 19.3543L15.8127 19.4745L14.1644 19.4885C13.0096 19.4968 12.5079 19.5108 12.4859 19.5332C12.4694 19.55 12.3839 19.6898 12.2985 19.8407L12.1414 20.1175L11.9622 20.1315C11.7362 20.151 11.6149 20.207 11.4964 20.3411C11.3696 20.4865 11.3283 20.6039 11.3283 20.7996C11.3283 21.0848 11.4826 21.328 11.7307 21.4343C11.863 21.4902 12.1276 21.4846 12.2709 21.4203C12.4032 21.3644 12.5548 21.205 12.6127 21.0652C12.6954 20.8639 12.6347 20.467 12.5024 20.3579C12.4776 20.3384 12.4583 20.302 12.4583 20.2796C12.4583 20.2349 12.6375 19.8938 12.7009 19.8156C12.7395 19.7708 12.8883 19.768 15.1016 19.768C17.1936 19.768 17.4692 19.7736 17.5243 19.8128C17.5987 19.8631 17.6015 19.9386 17.5353 20.0001C17.494 20.0392 17.4003 20.0476 16.962 20.0532L16.4411 20.0616L16.4494 20.1594C16.4659 20.3663 16.5403 20.9199 16.5679 21.0513C16.6147 21.2749 16.634 21.2889 16.8104 21.219C17.0282 21.1351 17.1054 21.0904 17.2321 20.9758C17.5271 20.7074 17.6869 20.2824 17.8633 19.3151C18.0921 18.0319 18.3126 17.3106 18.7701 16.3433C19.1312 15.5773 19.7486 14.5736 20.4459 13.6259C20.8952 13.0136 21.0964 12.7061 21.2287 12.4265C21.339 12.1973 21.339 12.1917 21.2921 12.119C21.2204 12.0072 20.7574 11.5543 20.3715 11.2188C19.4482 10.4108 18.4835 9.73706 16.6892 8.64394C15.2587 7.77168 14.3767 7.30201 13.1612 6.75685C11.5874 6.04953 8.04007 4.71039 6.16031 4.10932C5.52913 3.90803 5.64214 3.91642 3.57771 3.91642H1.71449L1.66488 3.79061C1.61251 3.65082 1.44989 3.48588 1.30657 3.42437C1.17978 3.37125 0.893128 3.37685 0.758072 3.43835ZM1.16048 3.63964C1.29278 3.68437 1.4306 3.82695 1.46367 3.95276C1.5436 4.2519 1.22939 4.56781 0.942741 4.47276C0.711216 4.40007 0.570648 4.15685 0.636798 3.94996C0.691923 3.77383 0.865566 3.62566 1.03645 3.61168C1.05299 3.60889 1.10812 3.62287 1.16048 3.63964ZM2.15273 6.63104C2.28503 6.67577 2.42284 6.81835 2.45592 6.94416C2.53585 7.2433 2.22164 7.55921 1.93499 7.46416C1.70346 7.39147 1.5629 7.14824 1.62905 6.94136C1.68417 6.76523 1.85781 6.61706 2.0287 6.60308C2.04524 6.60029 2.10036 6.61427 2.15273 6.63104ZM5.57048 7.24609C5.70278 7.29082 5.84059 7.43341 5.87366 7.55921C5.95359 7.85835 5.63938 8.17427 5.35273 8.07921C5.12121 8.00652 4.98064 7.7633 5.04679 7.55642C5.10191 7.38029 5.27556 7.23211 5.44644 7.21814C5.46298 7.21534 5.51811 7.22932 5.57048 7.24609ZM14.3381 8.74459C14.4015 8.8033 14.4015 8.87039 14.3353 8.9319C14.294 8.97104 14.2361 8.97663 13.9991 8.97104L13.7124 8.96265L13.7042 8.87039C13.6876 8.70265 13.6959 8.69706 14.0046 8.69706C14.2278 8.69706 14.2967 8.70545 14.3381 8.74459ZM10.8073 9.73427C10.9396 9.779 11.0775 9.92158 11.1105 10.0474C11.1905 10.3465 10.8762 10.6624 10.5896 10.5674C10.3581 10.4947 10.2175 10.2515 10.2837 10.0446C10.3388 9.86846 10.5124 9.72029 10.6833 9.70631C10.6998 9.70351 10.755 9.71749 10.8073 9.73427ZM7.30691 10.1536C7.43921 10.1984 7.57702 10.3409 7.6101 10.4667C7.69003 10.7659 7.37582 11.0818 7.08917 10.9867C6.85764 10.9141 6.71707 10.6708 6.78322 10.4639C6.83835 10.2878 7.01199 10.1396 7.18288 10.1257C7.19942 10.1229 7.25454 10.1368 7.30691 10.1536ZM8.16135 12.0547C8.29365 12.0994 8.43146 12.242 8.46453 12.3678C8.54446 12.667 8.23025 12.9829 7.9436 12.8878C7.71208 12.8151 7.57151 12.5719 7.63766 12.365C7.69278 12.1889 7.86643 12.0407 8.03731 12.0267C8.05385 12.0239 8.10898 12.0379 8.16135 12.0547ZM11.9925 12.8095C12.1248 12.8543 12.2626 12.9968 12.2957 13.1227C12.3756 13.4218 12.0614 13.7377 11.7748 13.6427C11.5433 13.57 11.4027 13.3267 11.4688 13.1199C11.524 12.9437 11.6976 12.7956 11.8685 12.7816C11.885 12.7788 11.9402 12.7928 11.9925 12.8095ZM9.78753 14.0956C9.91983 14.1403 10.0576 14.2829 10.0907 14.4087C10.1706 14.7078 9.85644 15.0237 9.56979 14.9287C9.33826 14.856 9.19769 14.6128 9.26384 14.4059C9.31897 14.2298 9.49261 14.0816 9.6635 14.0676C9.68004 14.0648 9.73516 14.0788 9.78753 14.0956ZM18.3622 15.5661C18.4256 15.6248 18.4256 15.6919 18.3622 15.7534C18.3154 15.7925 18.2354 15.7981 17.6649 15.7925L17.0199 15.7842L17.0116 15.6919C16.9951 15.513 16.9703 15.5186 17.6704 15.5186C18.2272 15.5186 18.3181 15.5242 18.3622 15.5661ZM8.79528 15.745C8.92758 15.7898 9.06539 15.9323 9.09847 16.0581C9.1784 16.3573 8.86419 16.6732 8.57754 16.5781C8.34601 16.5054 8.20545 16.2622 8.2716 16.0553C8.32672 15.8792 8.50036 15.731 8.67125 15.7171C8.68779 15.7143 8.74291 15.7282 8.79528 15.745ZM13.3982 16.4439C13.5305 16.4887 13.6683 16.6313 13.7014 16.7571C13.7813 17.0562 13.4671 17.3721 13.1805 17.2771C12.9489 17.2044 12.8084 16.9611 12.8745 16.7543C12.9296 16.5781 13.1033 16.43 13.2742 16.416C13.2907 16.4132 13.3458 16.4272 13.3982 16.4439ZM10.9452 17.6461C11.0775 17.6908 11.2153 17.8334 11.2483 17.9592C11.3283 18.2584 11.0141 18.5743 10.7274 18.4792C10.4959 18.4065 10.3553 18.1633 10.4215 17.9564C10.4766 17.7803 10.6502 17.6321 10.8211 17.6181C10.8377 17.6153 10.8928 17.6293 10.9452 17.6461ZM17.7834 18.25C17.8468 18.3087 17.8468 18.3758 17.7806 18.4373C17.7393 18.4764 17.6814 18.482 17.4444 18.4764L17.1577 18.468L17.1495 18.3758C17.1329 18.208 17.1412 18.2024 17.4499 18.2024C17.6731 18.2024 17.7421 18.2108 17.7834 18.25ZM12.1028 20.3859C12.2351 20.4306 12.3729 20.5732 12.406 20.699C12.4859 20.9981 12.1717 21.3141 11.885 21.219C11.6535 21.1463 11.5129 20.9031 11.5791 20.6962C11.6342 20.5201 11.8079 20.3719 11.9787 20.3579C11.9953 20.3551 12.0504 20.3691 12.1028 20.3859Z"
+                          fill="url(#paint1_linear_3121_61)" />
+                      </g>
+                      <defs>
+                        <linearGradient id="paint0_linear_3121_61" x1="18.8728" y1="0.309132" x2="18.4578" y2="31.1994"
+                          gradientUnits="userSpaceOnUse">
+                          <stop stop-color="white" />
+                          <stop offset="1" stop-color="#005AFF" />
+                        </linearGradient>
+                        <linearGradient id="paint1_linear_3121_61" x1="10.8542" y1="3.38807" x2="10.5957" y2="25.4081"
+                          gradientUnits="userSpaceOnUse">
+                          <stop stop-color="white" />
+                          <stop offset="1" stop-color="#005AFF" />
+                        </linearGradient>
+                        <clipPath id="clip0_3121_61">
+                          <rect width="32" height="26" fill="white" />
+                        </clipPath>
+                      </defs>
+                    </svg>
+
+                  </div>
+                </div>
+
+                <!-- Integration boxes -->
+                <div class="c0vjw cqcwp cu42g c9k3o c6dyc cz5uw cyw8w cv5m0 cqtp0 caadi cvirx cq4te">
+                  <!-- Top vertical line -->
+                  <div class="cxj2n c82xa cjy0z c9luo c9gtw cbkjh cqwum c38j2 cnwi0 chpvb" aria-hidden="true"></div>
+                  <div class="c0vjw c4a2s c0taz cdrow cxbhj cnwi0 ckuz5" data-aos="fade-up">
+                    <!-- Inner lines -->
+                    <div class="cxj2n cd1hm c82xa ceyu9 c9gtw c3ksr c2xjt c38j2 chpvb" aria-hidden="true">
+                      <div class="cxj2n c82xa cg0u5 cqwum c38j2 cnwi0"></div>
+                      <div class="cxj2n cj78a c26fe cq3mk cnwi0"></div>
+                    </div>
+                    <!-- Circle -->
+                    <div class="c4a2s ci2lm cju07 cdrow cxbhj csv9q cnky1 c6xlp c01wk">
+                      <!-- Icon -->
+                      <img src="./images/integration-icon-01.svg" width="36" height="46" alt="Icon 01">
+                    </div>
+                  </div>
+                  <div class="c0vjw c4a2s c0taz cdrow cxbhj cnwi0 ckuz5" data-aos="fade-up" data-aos-delay="100">
+                    <!-- Inner lines -->
+                    <div class="cxj2n cd1hm c82xa ceyu9 c9gtw c3ksr c2xjt c38j2 chpvb" aria-hidden="true">
+                      <div class="cxj2n c82xa cg0u5 cqwum c38j2 cnwi0"></div>
+                      <div class="cxj2n c26fe cwrcu cnwi0"></div>
+                    </div>
+                    <!-- Circle -->
+                    <div class="c4a2s ci2lm cju07 cdrow cxbhj csv9q cnky1 c6xlp c01wk">
+                      <!-- Icon -->
+                      <img src="./images/integration-icon-02.svg" width="46" height="46" alt="Icon 02">
+                    </div>
+                  </div>
+                  <div class="c0vjw c4a2s c0taz cdrow cxbhj cnwi0 ckuz5" data-aos="fade-up" data-aos-delay="200">
+                    <!-- Inner lines -->
+                    <div class="cxj2n cd1hm c82xa ceyu9 c9gtw c3ksr c2xjt c38j2 chpvb" aria-hidden="true">
+                      <div class="cxj2n c82xa cg0u5 cqwum c38j2 cnwi0"></div>
+                      <div class="cxj2n c26fe cwrcu cnwi0"></div>
+                    </div>
+                    <!-- Circle -->
+                    <div class="c4a2s ci2lm cju07 cdrow cxbhj csv9q cnky1 c6xlp c01wk">
+                      <!-- Icon -->
+                      <img src="./images/integration-icon-03.svg" width="53" height="45" alt="Icon 03">
+                    </div>
+                  </div>
+                  <div class="c0vjw c4a2s c0taz cdrow cxbhj cnwi0 ckuz5" data-aos="fade-up" data-aos-delay="300">
+                    <!-- Inner lines -->
+                    <div class="cxj2n cd1hm c82xa ceyu9 c9gtw c3ksr c2xjt c38j2 chpvb" aria-hidden="true">
+                      <div class="cxj2n c82xa cg0u5 cqwum c38j2 cnwi0"></div>
+                      <div class="cxj2n c26fe cwrcu cnwi0"></div>
+                    </div>
+                    <!-- Circle -->
+                    <div class="c4a2s ci2lm cju07 cdrow cxbhj csv9q cnky1 c6xlp c01wk">
+                      <!-- Icon -->
+                      <img src="./images/integration-icon-04.svg" width="48" height="46" alt="Icon 04">
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Información de todo tipo -->
+      <section class="c2bmm c2xfw cnbst crlr7 c0vjw">
+        <div class="cxbfd cx5hs cqcwp cn7jq">
+          <div class="ck5d4 c1gwx">
+            <!-- Section header -->
+            <div class="c4a2s cxbhj ckmmd cnsl6 c0u5w chuib czlz1 c93x7 cdrow cqmuf cjnt3 c0dcb cuq1a cnzyi c117c">
+              <span class="c7pbn cmgwh csuc4 ctbdc cgrvg cdrak">Controles avanzados</span>
+            </div>
+            <div class="cczaz c441s ccd2c cqcwp cx4ct">
+              <h2 class="ctwfu cmrh3 cep6s c0clt">
+                Información de todo tipo
+              </h2>
+            </div>
+
+            <!-- Planet -->
+            <div class="ccd2c cx4ct" data-aos="zoom-y-out">
+              <div class="cczaz">
+                <div
+                  class="ce6as cfpsu ca99c clrg9 cqswb c77fw c02lw c2xfw c7wav cnbst c030e c4m92 cvbjy csv9q cdrak c0vjw">
+                  <img class="csv9q chf7m" src="./images/planet.png" width="400" height="400" alt="Planet" />
+                  <div class="cc8v2" aria-hidden="true">
+                    <img class="c13of cbtny cxj2n c8r9s cztq3" src="./images/planet-overlay.svg" width="789"
+                      height="755" alt="Planet decoration" />
+                    <div>
+                      <img class="cfvlc cwmoh c4giq cr8os cxj2n caxyn cj9zb cztq3" src="./images/planet-tag-01.png"
+                        width="253" height="56" alt="Tag 01" />
+                      <img class="c4m9r cwmoh c4giq cga69 cxj2n cl3uy c76qb cztq3" src="./images/planet-tag-02.png"
+                        width="241" height="56" alt="Tag 02" />
+                      <img class="c7dag cwmoh c4giq czeo4 cgh7d cxj2n cro3x cztq3" src="./images/planet-tag-03.png"
+                        width="243" height="56" alt="Tag 03" />
+                      <img class="c5vd6 cwmoh c4giq cr8os c2okp cxj2n ciq2k cztq3" src="./images/planet-tag-04.png"
+                        width="251" height="56" alt="Tag 04" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Grid -->
+            <div
+              class="overflow-hidden cw82x cjhg0 cpdf8 covse crp5p ckpfk c0rmx cf3dk cdjdr cfmt7 cai21 ced8l cck0n cj4bx c6ai0 csreq cf8cj c9k3o">
+              <article>
+                <h3 class="ctwfu cdrow cc7ls ciy3m cd57x c4a2s">
+                  <svg class="c4ow8" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+                    <path
+                      d="M2 4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4Zm2-4a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4H4Zm1 10a1 1 0 1 0 0 2h6a1 1 0 1 0 0-2H5Z">
+                    </path>
                   </svg>
+                  <span>Instant Analytics</span>
+                </h3>
+                <p class="cfl62 chql7">
+                  Collect essential insights about how visitors are using your
+                  site with in-depth page view metrics like pages, referring
+                  sites, and more.
+                </p>
+              </article>
+              <article>
+                <h3 class="ctwfu cdrow cc7ls ciy3m cd57x c4a2s">
+                  <svg class="c4ow8" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+                    <path
+                      d="M14.29 2.614a1 1 0 0 0-1.58-1.228L6.407 9.492l-3.199-3.2a1 1 0 1 0-1.414 1.415l4 4a1 1 0 0 0 1.496-.093l7-9ZM1 14a1 1 0 1 0 0 2h14a1 1 0 1 0 0-2H1Z">
+                    </path>
+                  </svg>
+                  <span>Metadata</span>
+                </h3>
+                <p class="cfl62 chql7">
+                  Collect essential insights about how visitors are using your
+                  site with in-depth page view metrics like pages, referring
+                  sites, and more.
+                </p>
+              </article>
+              <article>
+                <h3 class="ctwfu cdrow cc7ls ciy3m cd57x c4a2s">
+                  <svg class="c4ow8" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+                    <path
+                      d="M2.248 6.285a1 1 0 0 1-1.916-.57A8.014 8.014 0 0 1 5.715.332a1 1 0 0 1 .57 1.916 6.014 6.014 0 0 0-4.037 4.037Z"
+                      opacity=".3"></path>
+                    <path
+                      d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6Zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm1.715-6.752a1 1 0 0 1 .57-1.916 8.014 8.014 0 0 1 5.383 5.383 1 1 0 1 1-1.916.57 6.014 6.014 0 0 0-4.037-4.037Zm4.037 7.467a1 1 0 1 1 1.916.57 8.014 8.014 0 0 1-5.383 5.383 1 1 0 1 1-.57-1.916 6.014 6.014 0 0 0 4.037-4.037Zm-7.467 4.037a1 1 0 1 1-.57 1.916 8.014 8.014 0 0 1-5.383-5.383 1 1 0 1 1 1.916-.57 6.014 6.014 0 0 0 4.037 4.037Z">
+                    </path>
+                  </svg>
+                  <span>SEO &amp; Performance</span>
+                </h3>
+                <p class="cfl62 chql7">
+                  Collect essential insights about how visitors are using your
+                  site with in-depth page view metrics like pages, referring
+                  sites, and more.
+                </p>
+              </article>
+              <article>
+                <h3 class="ctwfu cdrow cc7ls ciy3m cd57x c4a2s">
+                  <svg class="c4ow8" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+                    <path
+                      d="M8 0a1 1 0 0 1 1 1v14a1 1 0 1 1-2 0V1a1 1 0 0 1 1-1Zm6 3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h1a1 1 0 1 1 0 2h-1a3 3 0 0 1-3-3V4a3 3 0 0 1 3-3h1a1 1 0 1 1 0 2h-1ZM1 1a1 1 0 0 0 0 2h1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 1 0 0 2h1a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3H1Z">
+                    </path>
+                  </svg>
+                  <span>Custom Code</span>
+                </h3>
+                <p class="cfl62 chql7">
+                  Collect essential insights about how visitors are using your
+                  site with in-depth page view metrics like pages, referring
+                  sites, and more.
+                </p>
+              </article>
+              <article>
+                <h3 class="ctwfu cdrow cc7ls ciy3m cd57x c4a2s">
+                  <svg class="c4ow8" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+                    <path
+                      d="M10.284.33a1 1 0 1 0-.574 1.917 6.049 6.049 0 0 1 2.417 1.395A1 1 0 0 0 13.5 2.188 8.034 8.034 0 0 0 10.284.33ZM6.288 2.248A1 1 0 0 0 5.718.33 8.036 8.036 0 0 0 2.5 2.187a1 1 0 0 0 1.372 1.455 6.036 6.036 0 0 1 2.415-1.395ZM1.42 5.401a1 1 0 0 1 .742 1.204 6.025 6.025 0 0 0 0 2.79 1 1 0 0 1-1.946.462 8.026 8.026 0 0 1 0-3.714A1 1 0 0 1 1.421 5.4Zm2.452 6.957A1 1 0 0 0 2.5 13.812a8.036 8.036 0 0 0 3.216 1.857 1 1 0 0 0 .574-1.916 6.044 6.044 0 0 1-2.417-1.395Zm9.668.04a1 1 0 0 1-.041 1.414 8.033 8.033 0 0 1-3.217 1.857 1 1 0 1 1-.571-1.917 6.035 6.035 0 0 0 2.415-1.395 1 1 0 0 1 1.414.042Zm2.242-6.255a1 1 0 1 0-1.946.462 6.03 6.03 0 0 1 0 2.79 1 1 0 1 0 1.946.462 8.022 8.022 0 0 0 0-3.714Z">
+                    </path>
+                  </svg>
+                  <span>Localization</span>
+                </h3>
+                <p class="cfl62 chql7">
+                  Collect essential insights about how visitors are using your
+                  site with in-depth page view metrics like pages, referring
+                  sites, and more.
+                </p>
+              </article>
+              <article>
+                <h3 class="ctwfu cdrow cc7ls ciy3m cd57x c4a2s">
+                  <svg class="c4ow8" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+                    <path
+                      d="M9 1a1 1 0 1 0-2 0v6a1 1 0 0 0 2 0V1ZM4.572 3.08a1 1 0 0 0-1.144-1.64A7.987 7.987 0 0 0 0 8a8 8 0 0 0 16 0c0-2.72-1.36-5.117-3.428-6.56a1 1 0 1 0-1.144 1.64A5.987 5.987 0 0 1 14 8 6 6 0 1 1 2 8a5.987 5.987 0 0 1 2.572-4.92Z">
+                    </path>
+                  </svg>
+                  <span>Canonical URL</span>
+                </h3>
+                <p class="cfl62 chql7">
+                  Collect essential insights about how visitors are using your
+                  site with in-depth page view metrics like pages, referring
+                  sites, and more.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Mejorando para ti -->
+      <section class="c0vjw">
+        <div class="cxbfd chf4b cqcwp cn7jq">
+          <div class="creo4 ck5d4 crm25 c1gwx">
+
+            <div class="c4a2s cxbhj ckmmd cnsl6 c0u5w chuib czlz1 c93x7 cdrow cqmuf cjnt3 c0dcb cuq1a cnzyi c117c">
+              <span class="c7pbn cmgwh csuc4 ctbdc cgrvg cdrak">Avanzamos día a día</span>
+            </div>
+            <div class="cnv5k cczaz">
+              <h2 class="cfmhn clkfy ca6xa cmgwh ck08h cgrvg cjy9f czenk cm3px cfjwl">
+                Mejorando para ti
+              </h2>
+              <p class="cthiu cf2y5 cqcwp">
+                <b>IRIS</b> evoluciona continuamente para tu asistencia integral a través de nuestro compromiso
+                constante con la innovación y la optimización de procesos con precisión y rápidez ¡E
+              spera nuestras mejoras que tenemos para ti!
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Preguntas Frecuentes -->
+      <section>
+        <div class="cxbfd cx5hs cqcwp cn7jq">
+          <div class="creo4 ck5d4 crm25 c1gwx">
+
+            <div class="cnv5k cczaz">
+              <h2 class="cfmhn clkfy ca6xa cmgwh ck08h cgrvg cjy9f czenk cm3px cfjwl">
+                Preguntas frecuentes
+              </h2>
+            </div>
+
+            <div class="cih6g c441s cqcwp">
+              <!-- Accordion item -->
+              <div x-data="{ expanded: false }"
+                class="csoaf cdouf cnpw6 carbw cynyd cv5x1 cy259 c2xfw cnbst cpous c73aj cl954 cwoyc c0vjw">
+                <h2>
+                  <button id="faqs-title-01" class="c5j5d ck08h cdrow cgb6c c07cc c4a2s cn7jq c1fmi"
+                    @click="expanded = !expanded" :aria-expanded="expanded" aria-controls="faqs-text-01">
+                    <span>Lorem ipsum dolor set mi</span>
+                    <span class="cxbhj cdrow csv9q cu39d cfufg cgwj6 c62az c4a2s c7fu8 cumc8">
+                      <svg class="c7fcq clcg2 ccybt cwcpl c3mi3 chyvu" :class="{'ccaoh': expanded}"
+                        xmlns="http://www.w3.org/2000/svg" width="10" height="6" fill="none">
+                        <path d="m2 .586 3 3 3-3L9.414 2 5.707 5.707a1 1 0 0 1-1.414 0L.586 2 2 .586Z"
+                          clip-rule="evenodd"></path>
+                      </svg>
+                    </span>
+                  </button>
+                </h2>
+                <div id="faqs-text-01" role="region" aria-labelledby="faqs-title-01"
+                  class="overflow-hidden c54ql c34vk coclo c0lz8 cnrm4 c9k3o"
+                  :class="expanded ? 'cgcmd c8bnb' : 'ca4cx cio1t'">
+                  <div class="overflow-hidden">
+                    <p class="cn7jq c117c">
+                      Simple is designed to be user-friendly and intuitive, while Complex is more robust and
+                      feature-rich. Both tools are great for creating websites, but Simple is ideal for beginners and
+                      small businesses, while Complex is better suited for larger organizations and developers.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Accordion item -->
+              <div x-data="{ expanded: false }"
+                class="csoaf cdouf cnpw6 carbw cynyd cv5x1 cy259 c2xfw cnbst cpous c73aj cl954 cwoyc c0vjw">
+                <h2>
+                  <button id="faqs-title-02" class="c5j5d ck08h cdrow cgb6c c07cc c4a2s cn7jq c1fmi"
+                    @click="expanded = !expanded" :aria-expanded="expanded" aria-controls="faqs-text-02">
+                    <span>Lorem ipsum dolor set mi</span>
+                    <span class="cxbhj cdrow csv9q cu39d cfufg cgwj6 c62az c4a2s c7fu8 cumc8">
+                      <svg class="c7fcq clcg2 ccybt cwcpl c3mi3 chyvu" :class="{'ccaoh': expanded}"
+                        xmlns="http://www.w3.org/2000/svg" width="10" height="6" fill="none">
+                        <path d="m2 .586 3 3 3-3L9.414 2 5.707 5.707a1 1 0 0 1-1.414 0L.586 2 2 .586Z"
+                          clip-rule="evenodd"></path>
+                      </svg>
+                    </span>
+                  </button>
+                </h2>
+                <div id="faqs-text-02" role="region" aria-labelledby="faqs-title-02"
+                  class="overflow-hidden c54ql c34vk coclo c0lz8 cnrm4 c9k3o"
+                  :class="expanded ? 'cgcmd c8bnb' : 'ca4cx cio1t'">
+                  <div class="overflow-hidden">
+                    <p class="cn7jq c117c">
+                      Yes, but you'll still pay the remainder of the term for the plan you signed up for.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Accordion item -->
+              <div x-data="{ expanded: false }"
+                class="csoaf cdouf cnpw6 carbw cynyd cv5x1 cy259 c2xfw cnbst cpous c73aj cl954 cwoyc c0vjw">
+                <h2>
+                  <button id="faqs-title-03" class="c5j5d ck08h cdrow cgb6c c07cc c4a2s cn7jq c1fmi"
+                    @click="expanded = !expanded" :aria-expanded="expanded" aria-controls="faqs-text-03">
+                    <span>Lorem ipsum dolor set mi</span>
+                    <span class="cxbhj cdrow csv9q cu39d cfufg cgwj6 c62az c4a2s c7fu8 cumc8">
+                      <svg class="c7fcq clcg2 ccybt cwcpl c3mi3 chyvu" :class="{'ccaoh': expanded}"
+                        xmlns="http://www.w3.org/2000/svg" width="10" height="6" fill="none">
+                        <path d="m2 .586 3 3 3-3L9.414 2 5.707 5.707a1 1 0 0 1-1.414 0L.586 2 2 .586Z"
+                          clip-rule="evenodd"></path>
+                      </svg>
+                    </span>
+                  </button>
+                </h2>
+                <div id="faqs-text-03" role="region" aria-labelledby="faqs-title-03"
+                  class="overflow-hidden c54ql c34vk coclo c0lz8 cnrm4 c9k3o"
+                  :class="expanded ? 'cgcmd c8bnb' : 'ca4cx cio1t'">
+                  <div class="overflow-hidden">
+                    <p class="cn7jq c117c">
+                      Yes, but you'll still pay the remainder of the term for the plan you signed up for.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Accordion item -->
+              <div x-data="{ expanded: false }"
+                class="csoaf cdouf cnpw6 carbw cynyd cv5x1 cy259 c2xfw cnbst cpous c73aj cl954 cwoyc c0vjw">
+                <h2>
+                  <button id="faqs-title-04" class="c5j5d ck08h cdrow cgb6c c07cc c4a2s cn7jq c1fmi"
+                    @click="expanded = !expanded" :aria-expanded="expanded" aria-controls="faqs-text-04">
+                    <span>Lorem ipsum dolor set mi</span>
+                    <span class="cxbhj cdrow csv9q cu39d cfufg cgwj6 c62az c4a2s c7fu8 cumc8">
+                      <svg class="c7fcq clcg2 ccybt cwcpl c3mi3 chyvu" :class="{'ccaoh': expanded}"
+                        xmlns="http://www.w3.org/2000/svg" width="10" height="6" fill="none">
+                        <path d="m2 .586 3 3 3-3L9.414 2 5.707 5.707a1 1 0 0 1-1.414 0L.586 2 2 .586Z"
+                          clip-rule="evenodd"></path>
+                      </svg>
+                    </span>
+                  </button>
+                </h2>
+                <div id="faqs-text-04" role="region" aria-labelledby="faqs-title-04"
+                  class="overflow-hidden c54ql c34vk coclo c0lz8 cnrm4 c9k3o"
+                  :class="expanded ? 'cgcmd c8bnb' : 'ca4cx cio1t'">
+                  <div class="overflow-hidden">
+                    <p class="cn7jq c117c">
+                      Support is available 24/7 via email, chat, and phone. We're here to help you with any questions or
+                      concerns you may have.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- Accordion item -->
+              <div x-data="{ expanded: false }"
+                class="csoaf cdouf cnpw6 carbw cynyd cv5x1 cy259 c2xfw cnbst cpous c73aj cl954 cwoyc c0vjw">
+                <h2>
+                  <button id="faqs-title-05" class="c5j5d ck08h cdrow cgb6c c07cc c4a2s cn7jq c1fmi"
+                    @click="expanded = !expanded" :aria-expanded="expanded" aria-controls="faqs-text-05">
+                    <span>Lorem ipsum dolor set mi</span>
+                    <span class="cxbhj cdrow csv9q cu39d cfufg cgwj6 c62az c4a2s c7fu8 cumc8">
+                      <svg class="c7fcq clcg2 ccybt cwcpl c3mi3 chyvu" :class="{'ccaoh': expanded}"
+                        xmlns="http://www.w3.org/2000/svg" width="10" height="6" fill="none">
+                        <path d="m2 .586 3 3 3-3L9.414 2 5.707 5.707a1 1 0 0 1-1.414 0L.586 2 2 .586Z"
+                          clip-rule="evenodd"></path>
+                      </svg>
+                    </span>
+                  </button>
+                </h2>
+                <div id="faqs-text-05" role="region" aria-labelledby="faqs-title-05"
+                  class="overflow-hidden c54ql c34vk coclo c0lz8 cnrm4 c9k3o"
+                  :class="expanded ? 'cgcmd c8bnb' : 'ca4cx cio1t'">
+                  <div class="overflow-hidden">
+                    <p class="cn7jq c117c">
+                      Yes! You can invite clients or coworkers to collaborate on your projects, and they can upload
+                      their own content.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- Empieza a usar IRIS -->
+
+      <section class="overflow-hidden c0vjw vjskw cqcwp">
+        <div class="cxj2n cogum" aria-hidden="true">
+          <canvas data-particle-animation=""></canvas>
+        </div>
+        <div class="cc8v2 c38j2 c82xa cxj2n cvros cah73 ci34p cref9" aria-hidden="true">
+          <img class="c13of" src="./images/blurred-shape.svg" width="760" height="668" alt="Blurred shape">
+        </div>
+
+        <div class="max-w6xl cx5hs cqcwp cn7jq">
+          <div class="c7pbn cev45 ct16x ck5d4 c1gwx cdrow cxbhj c4a2s">
+            <img class="c13of cxj2n casqr cczds ca7zz" src="./images/IRIS-logo-stripes.svg" width="260" height="260"
+              alt="Cruip" />
+            <div class="cczaz c441s cqcwp cztq3">
+              <h2 class="cfmhn clkfy ca6xa cmgwh ck08h cgrvg cjy9f czenk cm3px cbyz9" data-aos="fade-up">
+                Empieza a usar IRIS
+              </h2>
+              <div class="c0ix1 citj5 c6dyc cdj6q cqcwp">
+                <div data-aos="fade-up" data-aos-delay="400">
+                  <a class="cdnfp cnbzd cnky1 cfdqu cw1xo c8tf8 cnbyk c8slg cg07b c07cc cwq93 codvp cnv5k cayql"
+                    href="#0">
+                    <span class="cdrow cdrak c0vjw">
+                      Iniciar sesión
+                      <span class="c6w8n ceifv ck2l5 c43id cr1y2">-&gt;</span>
+                    </span>
+                  </a>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="600">
+                  <a class="cz81t cdouf cnpw6 cdnfp carbw cynyd cnbzd cv5x1 cm27f c2xfw ckbx6 cnbst cpous cckl9 cw1xo c1gto c8slg c0vjw c2mml c07cc cayql"
+                    href="#0">Documentación</a>
                 </div>
               </div>
             </div>
@@ -1105,142 +1625,6 @@
                 <span class="chql7">/</span>
                 <a class="crnka" href="#0">CTO at Microsoft</a>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Features -->
-      <section class="c2bmm c2xfw cnbst crlr7 c0vjw">
-        <div class="cxbfd cx5hs cqcwp cn7jq">
-          <div class="ck5d4 c1gwx">
-            <!-- Section header -->
-            <div class="cczaz c441s ccd2c cqcwp cx4ct">
-              <h2 class="ctwfu cmrh3 cep6s c0clt">
-                Simple helps your teams work more efficiently together
-              </h2>
-            </div>
-
-            <!-- Planet -->
-            <div class="ccd2c cx4ct" data-aos="zoom-y-out">
-              <div class="cczaz">
-                <div
-                  class="ce6as cfpsu ca99c clrg9 cqswb c77fw c02lw c2xfw c7wav cnbst c030e c4m92 cvbjy csv9q cdrak c0vjw">
-                  <img class="csv9q chf7m" src="./images/planet.png" width="400" height="400" alt="Planet" />
-                  <div class="cc8v2" aria-hidden="true">
-                    <img class="c13of cbtny cxj2n c8r9s cztq3" src="./images/planet-overlay.svg" width="789"
-                      height="755" alt="Planet decoration" />
-                    <div>
-                      <img class="cfvlc cwmoh c4giq cr8os cxj2n caxyn cj9zb cztq3" src="./images/planet-tag-01.png"
-                        width="253" height="56" alt="Tag 01" />
-                      <img class="c4m9r cwmoh c4giq cga69 cxj2n cl3uy c76qb cztq3" src="./images/planet-tag-02.png"
-                        width="241" height="56" alt="Tag 02" />
-                      <img class="c7dag cwmoh c4giq czeo4 cgh7d cxj2n cro3x cztq3" src="./images/planet-tag-03.png"
-                        width="243" height="56" alt="Tag 03" />
-                      <img class="c5vd6 cwmoh c4giq cr8os c2okp cxj2n ciq2k cztq3" src="./images/planet-tag-04.png"
-                        width="251" height="56" alt="Tag 04" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Grid -->
-            <div
-              class="overflow-hidden cw82x cjhg0 cpdf8 covse crp5p ckpfk c0rmx cf3dk cdjdr cfmt7 cai21 ced8l cck0n cj4bx c6ai0 csreq cf8cj c9k3o">
-              <article>
-                <h3 class="ctwfu cdrow cc7ls ciy3m cd57x c4a2s">
-                  <svg class="c4ow8" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
-                    <path
-                      d="M2 4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4Zm2-4a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4H4Zm1 10a1 1 0 1 0 0 2h6a1 1 0 1 0 0-2H5Z">
-                    </path>
-                  </svg>
-                  <span>Instant Analytics</span>
-                </h3>
-                <p class="cfl62 chql7">
-                  Collect essential insights about how visitors are using your
-                  site with in-depth page view metrics like pages, referring
-                  sites, and more.
-                </p>
-              </article>
-              <article>
-                <h3 class="ctwfu cdrow cc7ls ciy3m cd57x c4a2s">
-                  <svg class="c4ow8" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
-                    <path
-                      d="M14.29 2.614a1 1 0 0 0-1.58-1.228L6.407 9.492l-3.199-3.2a1 1 0 1 0-1.414 1.415l4 4a1 1 0 0 0 1.496-.093l7-9ZM1 14a1 1 0 1 0 0 2h14a1 1 0 1 0 0-2H1Z">
-                    </path>
-                  </svg>
-                  <span>Metadata</span>
-                </h3>
-                <p class="cfl62 chql7">
-                  Collect essential insights about how visitors are using your
-                  site with in-depth page view metrics like pages, referring
-                  sites, and more.
-                </p>
-              </article>
-              <article>
-                <h3 class="ctwfu cdrow cc7ls ciy3m cd57x c4a2s">
-                  <svg class="c4ow8" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
-                    <path
-                      d="M2.248 6.285a1 1 0 0 1-1.916-.57A8.014 8.014 0 0 1 5.715.332a1 1 0 0 1 .57 1.916 6.014 6.014 0 0 0-4.037 4.037Z"
-                      opacity=".3"></path>
-                    <path
-                      d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6Zm0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2Zm1.715-6.752a1 1 0 0 1 .57-1.916 8.014 8.014 0 0 1 5.383 5.383 1 1 0 1 1-1.916.57 6.014 6.014 0 0 0-4.037-4.037Zm4.037 7.467a1 1 0 1 1 1.916.57 8.014 8.014 0 0 1-5.383 5.383 1 1 0 1 1-.57-1.916 6.014 6.014 0 0 0 4.037-4.037Zm-7.467 4.037a1 1 0 1 1-.57 1.916 8.014 8.014 0 0 1-5.383-5.383 1 1 0 1 1 1.916-.57 6.014 6.014 0 0 0 4.037 4.037Z">
-                    </path>
-                  </svg>
-                  <span>SEO &amp; Performance</span>
-                </h3>
-                <p class="cfl62 chql7">
-                  Collect essential insights about how visitors are using your
-                  site with in-depth page view metrics like pages, referring
-                  sites, and more.
-                </p>
-              </article>
-              <article>
-                <h3 class="ctwfu cdrow cc7ls ciy3m cd57x c4a2s">
-                  <svg class="c4ow8" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
-                    <path
-                      d="M8 0a1 1 0 0 1 1 1v14a1 1 0 1 1-2 0V1a1 1 0 0 1 1-1Zm6 3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h1a1 1 0 1 1 0 2h-1a3 3 0 0 1-3-3V4a3 3 0 0 1 3-3h1a1 1 0 1 1 0 2h-1ZM1 1a1 1 0 0 0 0 2h1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H1a1 1 0 1 0 0 2h1a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3H1Z">
-                    </path>
-                  </svg>
-                  <span>Custom Code</span>
-                </h3>
-                <p class="cfl62 chql7">
-                  Collect essential insights about how visitors are using your
-                  site with in-depth page view metrics like pages, referring
-                  sites, and more.
-                </p>
-              </article>
-              <article>
-                <h3 class="ctwfu cdrow cc7ls ciy3m cd57x c4a2s">
-                  <svg class="c4ow8" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
-                    <path
-                      d="M10.284.33a1 1 0 1 0-.574 1.917 6.049 6.049 0 0 1 2.417 1.395A1 1 0 0 0 13.5 2.188 8.034 8.034 0 0 0 10.284.33ZM6.288 2.248A1 1 0 0 0 5.718.33 8.036 8.036 0 0 0 2.5 2.187a1 1 0 0 0 1.372 1.455 6.036 6.036 0 0 1 2.415-1.395ZM1.42 5.401a1 1 0 0 1 .742 1.204 6.025 6.025 0 0 0 0 2.79 1 1 0 0 1-1.946.462 8.026 8.026 0 0 1 0-3.714A1 1 0 0 1 1.421 5.4Zm2.452 6.957A1 1 0 0 0 2.5 13.812a8.036 8.036 0 0 0 3.216 1.857 1 1 0 0 0 .574-1.916 6.044 6.044 0 0 1-2.417-1.395Zm9.668.04a1 1 0 0 1-.041 1.414 8.033 8.033 0 0 1-3.217 1.857 1 1 0 1 1-.571-1.917 6.035 6.035 0 0 0 2.415-1.395 1 1 0 0 1 1.414.042Zm2.242-6.255a1 1 0 1 0-1.946.462 6.03 6.03 0 0 1 0 2.79 1 1 0 1 0 1.946.462 8.022 8.022 0 0 0 0-3.714Z">
-                    </path>
-                  </svg>
-                  <span>Localization</span>
-                </h3>
-                <p class="cfl62 chql7">
-                  Collect essential insights about how visitors are using your
-                  site with in-depth page view metrics like pages, referring
-                  sites, and more.
-                </p>
-              </article>
-              <article>
-                <h3 class="ctwfu cdrow cc7ls ciy3m cd57x c4a2s">
-                  <svg class="c4ow8" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
-                    <path
-                      d="M9 1a1 1 0 1 0-2 0v6a1 1 0 0 0 2 0V1ZM4.572 3.08a1 1 0 0 0-1.144-1.64A7.987 7.987 0 0 0 0 8a8 8 0 0 0 16 0c0-2.72-1.36-5.117-3.428-6.56a1 1 0 1 0-1.144 1.64A5.987 5.987 0 0 1 14 8 6 6 0 1 1 2 8a5.987 5.987 0 0 1 2.572-4.92Z">
-                    </path>
-                  </svg>
-                  <span>Canonical URL</span>
-                </h3>
-                <p class="cfl62 chql7">
-                  Collect essential insights about how visitors are using your
-                  site with in-depth page view metrics like pages, referring
-                  sites, and more.
-                </p>
-              </article>
             </div>
           </div>
         </div>
